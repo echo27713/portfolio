@@ -1,0 +1,50 @@
+---
+title: Designing ChargePoint Self-Serve Onboarding for Charging Station Activation
+description: By Eunjung Cho
+---
+The legacy ChargePoint enterprise software's manual station provisioning process hindered scalability. A significant business process overhaul was crucial for rapid station onboarding and achieving a 10x growth.
+
+## Pain Analysis of Today's Customer Journey
+
+![Today's painful customer journey. There are two main actors: ChargePoint activation agent, customer who purchsed charging stations.](/content/writing/nd5lgxnHXb0jy3C5uuQL-1.png)
+![Close-up: ChargePoint activation agent's manual workflow involving data source checks from Salesforce and NetSuite, followed by manual data entry and configuration in the ChargePoint software during customer onboarding.](/content/writing/nd5lgxnHXb0jy3C5uuQL-2.png)
+![Close-up: Customer's Pain Points: Manual Workflow and PDF Activation Form Submission via Email](/content/writing/nd5lgxnHXb0jy3C5uuQL-3.png)
+
+Today's customer onboarding at ChargePoint is entirely manual, irrespective of the volume of purchase. While a personalized, white-glove service is appropriate for large customers with complex requirements and numerous charging stations, a streamlined, self-service provisioning process could significantly benefit smaller customers purchasing fewer than 5 stations with straightforward use cases. Implementing this approach can accelerate ChargePoint's business growth.
+
+## Design Goal: Get new stations up and running as soon as possible
+
+1. Create a digital self service tool that customers(not CP agents) use to setup org account and provision stations
+
+2. Recommend settings vs Make customers create from scratch
+
+3. Modular onboarding flows: SW only, SW-HW\
+   decouple each task: \
+   \- adding additional user role from creating account\
+   \- entering bank account from station activation
+
+4. Customer support engages only on unique or advanced setting\
+   Inline education on user roles and station policies
+
+## Initial Idea Sketches
+
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-4.png)
+
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-5.png)
+
+## Self-Serve Onboarding Flow Design
+
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-6.png)
+
+## Wireframes
+
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-7.png)
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-8.png)
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-9.png)
+![](/content/writing/nd5lgxnHXb0jy3C5uuQL-10.png)
+
+## My Contribution
+
+I collaborated with a UX researcher on this project. Based on the internal stakeholder interviews(PMs, Onboarding/Renewal Team), we analyzed today's pain points through out onboarding journey. Following this, we envisioned a more seamless onboarding experience for the future. This led to multiple rounds of paper prototype iterations to refine our concepts.\
+\
+The project was well-received by the previous company leadership, but a change in management and limited engineering resources stalled its progress to further design and development stages.

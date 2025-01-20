@@ -1,0 +1,100 @@
+---
+title: Easier signup process, Enhanced reporting on teacher dashboard
+description: By Eunjung Cho
+---
+Knowre math is an online core supplement for Grades 1-12 that identifies and addresses individual learning gaps, helping teachers personalize learning for all their students.
+
+In this redesign project, we improved our product by lowering the barriers on the signup process, designing more robust teacher dashboard to increase teacher's productivity, providing updated curricula which aligns with state standards and refining visual elements in our design.
+
+Here are some screenshots of the product after this project. *Note: I was in charge of teacher dashboard. Screenshots from the student experience were added only for context.*
+
+![Student webapp — Lessons start with objectives, cartoon and a short instructional video to introduce the material.](/content/writing/WUIPuO2cRtNhrJmCwnYo-1.png)
+![Student webapp — Then students work through problems with the support of instructional videos and the Walk-Me-Through.](/content/writing/WUIPuO2cRtNhrJmCwnYo-2.png)
+![Student webapp — When a student is engaged in a lesson and needs a hand, the personalized math instruction provided in the Walk-Me-Through steps in at the moment of need.](/content/writing/WUIPuO2cRtNhrJmCwnYo-3.gif)
+![The brand-new Students page on the Teacher Dashboard has been redesigned to make it easier to quickly determine how each student in the class is doing overall. ](/content/writing/WUIPuO2cRtNhrJmCwnYo-4.png)
+![Planning math lessons ahead of time is easy with the dashboard. Assign all the lessons for a unit in a matter of minutes. ](/content/writing/WUIPuO2cRtNhrJmCwnYo-5.png)
+![Lesson detail page on the Teacher Dashboard](/content/writing/WUIPuO2cRtNhrJmCwnYo-6.png)
+
+## Background and Project scope
+
+The company decided to expand its school business in the US. As a product team, we assessed the existing problems, setup a new roadmap for our product, setup a new design direction which aligned with a new roadmap and executed the implementation.
+
+## Findings: What we learned from our customers
+
+After collecting feedback from our customers, we were able to list up these problems as higher priority issues to be addressed.
+
+**Theme1: Actionable insights that encourage teachers to guide and act on individual student learning**
+
+![Our previous version of teacher dashboard](/content/writing/WUIPuO2cRtNhrJmCwnYo-7.png)
+
+1. Teachers are more interested in viewing individual students' recent achievement and struggles over aggregated achievement of the class in an entire school year. For example,
+
+   > In last 7 days, Student A practiced 23 skills and her achievement score is 89. Over the same period of time, Student B practiced 17 skills and his achievement score is 65 and he has been struggling with lesson 2-2, 2-4
+
+   vs.
+
+   > In the entire school year, my 30 students practiced 314 skills total and their average achievement score is 68.
+
+   However, our old product made it hard for teachers to view into individual student's learning progress efficiently. It was even impossible to view student data within a certain time period.
+
+2. Knowing whether a student got a problem correct or incorrect is not enough. Although teachers appreciate the fact that Knowre math provides students instructional videos or the walk-me-through supports when needed, they also want their students to continue practicing until they reach to an independent problem-solving level. To encourage that, teachers needed to identify students who have not yet reached this level of independence. Unfortunately, our old product didn't show this level of information. To address this problem, we came up with the idea of Knowre Success Score(KSS) in a newer version of our product— [This design concept is highlighted in a separate project](https://read.cv/eunjung/FnukshUUKAyg6HBYVMrv).
+
+   ---
+
+**Theme2: Easy signup process will help increasing the activation rate.**
+
+1. During the class time, making elementary students do self- signup on an education product using class code is almost impossible mission to their teachers. Some teachers with older students prefer to enroll their students ahead of time, because some students don't follow the direction promptly and make an excuse on not working on their math problems.
+
+2. When implementing an online education program to an entire school, user account management could come as a big pain for district tech support teams and school administrators. We noticed that in order to ease this problem, many schools utilize Google login via Google education suite/Google classroom, Single-sign-on such as 'Clever login' or even DB sync such as 'Clever secure sync'. They expect a new product that they are going to adopt has this convenience.
+
+   ---
+
+## Design ideation & solutions
+
+Ideas for theme1: **Actionable insights that encourage teachers to guide and act on student learning**
+
+* Make student learning progress data accessible within a certain time period, so teachers can get more targeted information and give personalized learning guide to each student efficiently.
+* Make student and classroom data accessible at a high level and more granular details — How active were students on the program last week? What skills or lessons did my students struggle with this week? Which of my students struggled the most?
+
+![Student page in teacher dashboard — this data view provides a real-time overview of how each student in the class is doing overall within a selected time period. At the top of the table (see green highlighted row), teacher will also find the “Class Average” as a benchmark to contextualize the individual student data.](/content/writing/WUIPuO2cRtNhrJmCwnYo-8.png)
+![Provide last 7 days data as a default option. Allow teacher to change time filter as needed.](/content/writing/WUIPuO2cRtNhrJmCwnYo-9.png)
+![With this data, a teacher can get insight — Which of my students struggled the most? Where did they struggle?](/content/writing/WUIPuO2cRtNhrJmCwnYo-10.png)
+![With this data, a teacher can get insight — What skills or lessons did my students struggle with this week?](/content/writing/WUIPuO2cRtNhrJmCwnYo-11.png)
+
+Ideas for theme2: **Easy signup process will help increasing the activation rate.**
+
+* Enable Knowre math login via Google login  or Clever single sign on — a user doesn't have to create a new user account for Knowre math. They can simply use their Google or Clever account provided by their schools. Bonus: they don't have to remember another username and password.
+
+* For Knowre signup, minimize the number of required data entry
+
+* Provide 'Create student accounts' function on teacher dashboard —due to the project time frame to launch in summer 2019, this item was moved to phase 2 development in 2020.
+
+* **Design impact**: After launching, these newly added features were used widely across many school district customers and drove easy onboarding their students. 80% of users signed up using their existing OAuth account. 37% of user accounts bulk-uploaded via teacher dashboard (vs. student self signup).
+
+![Signup/Login flow](/content/writing/WUIPuO2cRtNhrJmCwnYo-12.png)
+![Screen1: entering code for signup](/content/writing/WUIPuO2cRtNhrJmCwnYo-13.png)
+![Screen2: choosing signup method](/content/writing/WUIPuO2cRtNhrJmCwnYo-14.png)
+![Screen3: sign up form page — minimize the number of data entry](/content/writing/WUIPuO2cRtNhrJmCwnYo-15.png)
+![Bulk upload of student accounts on the Teacher Dashboard](/content/writing/WUIPuO2cRtNhrJmCwnYo-16.png)
+
+## 
+
+## My contributions
+
+As an interaction designer, I was in charge of
+
+* analyzing teachers' problems
+
+* documenting a conceptual model of our product
+
+* initial sketches of teacher dashboard ideas focusing on enhanced reporting
+
+* improving user's signup flows and wireframes
+
+* creating the navigation structure, task flows and wireframes of teacher dashboard
+
+* facilitating various rounds of UX review sessions on design mocks
+
+I partnered with the CEO, the product manager, content team, the customer success manager, the UI designer and the developers(web frontend, iOS, server), and drove the design direction.
+
+![Knowre math conceptual model](/content/writing/WUIPuO2cRtNhrJmCwnYo-17.png)

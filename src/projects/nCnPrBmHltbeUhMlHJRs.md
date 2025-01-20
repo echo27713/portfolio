@@ -1,0 +1,38 @@
+---
+title: List the simplest: iOS app
+description: By Eunjung Cho
+---
+I initiated this project to solve my own daily problem. Worked as a solo designer and iOS(Swift) developer.
+
+![](/content/writing/nCnPrBmHltbeUhMlHJRs-1.png)
+
+## Problem
+
+> I make a shopping list before I go to grocery stores, to not forget things and to not spend too much time there. One day, I found bunch of scrap papers in my purse with similar shopping list for each store. Why do I have to make the same things over and over again?
+
+![](/content/writing/nCnPrBmHltbeUhMlHJRs-2.png)
+
+## Key findings from target users
+
+* Users go to a couple different stores to buy things.
+
+* Users keep a mental list of items to shop for at each store. - They buy some specific things in this store and other things in another store.
+
+* Users often remake/reuse a similar list when they go to a certain store.
+
+* When users don't have time for shopping, they give their family a list and ask them to buy the groceries.
+
+## Design ideation
+
+![This idea assumes that people tend to categorize things. In this design, users make shop list first and add items to shop. Each shop shows the number of items a user wants to buy.](/content/writing/nCnPrBmHltbeUhMlHJRs-3.png)
+![Some people might just list up items and don’t specify where to go shop. For them, ‘Add an item’ will be the most important action and should be given first. They could assign items to a certain shop optionally and drag & drop may be a good way to do it. However, the complexity of tasks are higher than Idea #1.](/content/writing/nCnPrBmHltbeUhMlHJRs-4.png)
+![Some people might start making shopping list from recipes . To implement this design, it requires recipe data either from recipe sites or from users’ input. The scope of project would become bigger.](/content/writing/nCnPrBmHltbeUhMlHJRs-5.png)
+
+## Solution
+
+![](/content/writing/nCnPrBmHltbeUhMlHJRs-6.png)
+![](/content/writing/nCnPrBmHltbeUhMlHJRs-7.png)
+
+## Outcome
+
+Launched at appstore and had been maintained for 2 years. [app preview video](https://youtu.be/EXmsu-HZtRYOutcome)
