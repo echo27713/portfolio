@@ -1,0 +1,536 @@
+{
+  "general": {
+    "profilePhoto": "./profilePhoto.jpg",
+    "username": "eunjung",
+    "displayName": "Eunjung Cho",
+    "profession": "UX Designer",
+    "location": "San Francisco Bay Area",
+    "pronouns": null,
+    "byline": "UX Designer in San Francisco Bay Area",
+    "website": null,
+    "websiteURL": null,
+    "about": "Currently, I am looking for new opportunities.\n\nFor the past 12 years, I've worked at startups and big tech companies as an interaction designer and user researcher.\n\n— Skills Interaction design, Information Architecture, Flows&wireframes, Low-fidelity prototyping&design iteration with RITE method, Figma, HTML/CSS/Javascript/React/Swift/SQL Field study, Usability test, In-depth interviews, Web log analysis",
+    "status": {
+      "text": null,
+      "emoji": null,
+      "timestamp": null
+    },
+    "sectionOrder": [
+      "Projects",
+      "Work Experience",
+      "Education",
+      "Side Projects",
+      "Exhibitions",
+      "Speaking",
+      "Writing",
+      "Awards",
+      "Features",
+      "Volunteering",
+      "Certifications",
+      "Contact",
+      "Teams"
+    ]
+  },
+  "projects": [
+    {
+      "id": "3uQwX6EfOICi8W0TefCn",
+      "year": "2023",
+      "heading": "Fleet Software/Dashboard for Electric Vehicle Charging and Optimization",
+      "url": null,
+      "collaborators": [],
+      "description": "",
+      "attachments": [],
+      "type": "project",
+      "title": "Fleet Software/Dashboard for Electric Vehicle Charging and Optimization",
+      "company": ""
+    },
+    {
+      "id": "BuJHCqeATioYYfVVJDa4",
+      "year": "2023",
+      "heading": "ChargePoint Enterprise Software Onboarding Design",
+      "url": null,
+      "collaborators": [],
+      "description": "Analyzed today's pain points about activating new charging stations into ChargePoint software and designed new onboarding experience to scale the business.",
+      "attachments": [],
+      "type": "project",
+      "title": "ChargePoint Enterprise Software Onboarding Design",
+      "company": ""
+    },
+    {
+      "id": "3oLHkWk6xF6qKoipplA1",
+      "year": "2021",
+      "heading": "Flutter/Dart DevTools",
+      "url": null,
+      "collaborators": [],
+      "description": "Conducted qualitative user research on Flutter/Dart DevTools to improve Flutter developer’s debugging experience.",
+      "attachments": [],
+      "type": "project",
+      "title": "Flutter/Dart DevTools",
+      "company": null
+    },
+    {
+      "id": "BPGOAFsPZqNLms4ggdiV",
+      "year": "2021",
+      "heading": "Knowre math district admin dashboard",
+      "url": null,
+      "collaborators": [],
+      "description": "Designed the dashboard for school district administrators and math curriculum coordinators. The objective of this project was showing high level usage data across schools within a district. So district admin can monitor whether their purchased software is in good use and impact on their students math learning.",
+      "attachments": [],
+      "type": "project",
+      "title": "Knowre math district admin dashboard",
+      "company": null
+    },
+    {
+      "id": "ynHCAj0nxjgBeeSl0CuY",
+      "year": "2020",
+      "heading": "Easy way to enroll students at Knowre math",
+      "url": null,
+      "collaborators": [],
+      "description": "In addition to social login, other convenient ways for teachers to manage student accounts easily were added — creating student accounts on teacher dashboard, bulk upload of student accounts — and increased teacher's productivity.",
+      "attachments": [],
+      "type": "project",
+      "title": "Easy way to enroll students at Knowre math",
+      "company": null
+    },
+    {
+      "id": "FnukshUUKAyg6HBYVMrv",
+      "year": "2019",
+      "heading": "Knowre math student progress data visualization",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "project",
+      "title": "Knowre math student progress data visualization",
+      "company": null
+    },
+    {
+      "id": "WUIPuO2cRtNhrJmCwnYo",
+      "year": "2019",
+      "heading": "Knowre math redesign",
+      "url": null,
+      "collaborators": [],
+      "description": "Our design journey to new Knowre math: What we saw as our customers problems, How we addressed those problems to better serve them.",
+      "attachments": [],
+      "type": "project",
+      "title": "Knowre math redesign",
+      "company": null
+    },
+    {
+      "id": "nCnPrBmHltbeUhMlHJRs",
+      "year": "2017",
+      "heading": "iOS app development",
+      "url": null,
+      "collaborators": [],
+      "description": "Designed, developed and launched the shopping list app.",
+      "attachments": [],
+      "type": "project",
+      "title": "iOS app development",
+      "company": null
+    }
+  ],
+  "sideProjects": [],
+  "exhibitions": [],
+  "talks": [],
+  "writing": [],
+  "awards": [],
+  "features": [],
+  "workExperience": [
+    {
+      "id": "41bKbOvxTRD0llrBGn3f",
+      "year": "2022 — 2024",
+      "heading": "UX designer at ChargePoint",
+      "url": null,
+      "collaborators": [],
+      "description": "Design the enterprise software of electric vehicle charging network, fleet operations, bus depot management",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "UX designer",
+      "company": "ChargePoint",
+      "location": ""
+    },
+    {
+      "id": "yx72XPiwFIoXJACM9pjd",
+      "year": "2021 — 2021",
+      "heading": "UX researcher at Google via Prounlimited",
+      "url": null,
+      "collaborators": [],
+      "description": "Qualitative user research on Dart DevTools to improve developer’s debugging experience",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "UX researcher",
+      "company": "Google via Prounlimited",
+      "location": null
+    },
+    {
+      "id": "kPTqfFlFyfcmHpI2AcIZ",
+      "year": "2018 — 2021",
+      "heading": "UX designer, Product manager at Knowre",
+      "url": null,
+      "collaborators": [],
+      "description": "Interaction designed Knowre math teacher dashboard, Design iteration with prototypes, Qualitative/Quantitative user research",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "UX designer, Product manager",
+      "company": "Knowre",
+      "location": null
+    },
+    {
+      "id": "i1LwWHa9h04Zsi4AijF8",
+      "year": "2017 — 2018",
+      "heading": "Solo UX designer & iOS developer at Personal project",
+      "url": null,
+      "collaborators": [],
+      "description": "Designed, developed and launched 2 iOS apps",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Solo UX designer & iOS developer",
+      "company": "Personal project",
+      "location": null
+    },
+    {
+      "id": "QlyjjHwFCud2LTXPBZfh",
+      "year": "2012 — 2016",
+      "heading": "Mom, School volunteer, Art docent at Schools",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Mom, School volunteer, Art docent",
+      "company": "Schools",
+      "location": null
+    },
+    {
+      "id": "LOdGSSgQF4Eh9eVWgdvm",
+      "year": "2008 — 2011",
+      "heading": "UX researcher, Product manager at Naver",
+      "url": null,
+      "collaborators": [],
+      "description": "Front Page and its admin system, \bComment component",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "UX researcher, Product manager",
+      "company": "Naver",
+      "location": null
+    },
+    {
+      "id": "TEqQxqUa8Qyqklm9XCLB",
+      "year": "2006 — 2007",
+      "heading": "UX designer, UX manager at Olaworks",
+      "url": null,
+      "collaborators": [],
+      "description": "Established user research integrated design process for early stage startup, Interaction designed a photo app for desktop",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "UX designer, UX manager",
+      "company": "Olaworks",
+      "location": null
+    },
+    {
+      "id": "Q3gJXCeApAR6gN41o2wS",
+      "year": "2003 — 2006",
+      "heading": "Interaction designer at Yahoo! Korea",
+      "url": null,
+      "collaborators": [],
+      "description": "Interaction designed Y! Gugi local search and Y! News, Worked on Y! interaction design pattern library",
+      "attachments": [],
+      "type": "workExperience",
+      "title": "Interaction designer",
+      "company": "Yahoo! Korea",
+      "location": null
+    }
+  ],
+  "volunteering": [],
+  "education": [
+    {
+      "id": "m7qCDeHzp4BEDbPXMGza",
+      "year": "2000 — 2002",
+      "heading": "Master of Graphic Design at NC State University",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": "Master of Graphic Design",
+      "school": "NC State University",
+      "location": null
+    },
+    {
+      "id": "fH6HBMYFyvtbevw6BGX9",
+      "year": "1996 — 2000",
+      "heading": "Bachelor of Science in Industrial Design at Korea Advanced Institute of Science and Technology",
+      "url": null,
+      "collaborators": [],
+      "description": null,
+      "attachments": [],
+      "type": "education",
+      "degree": null,
+      "school": "Bachelor of Science in Industrial Design at Korea Advanced Institute of Science and Technology",
+      "location": null
+    }
+  ],
+  "certifications": [],
+  "contact": [
+    {
+      "id": "5hxlBPikjhm9ScKueHgA",
+      "platform": "LinkedIn",
+      "handle": "eunjung-cho-designer",
+      "url": "https://linkedin.com/in/eunjung-cho-designer"
+    }
+  ],
+  "allCollections": [
+    {
+      "name": "Projects",
+      "items": [
+        {
+          "id": "3uQwX6EfOICi8W0TefCn",
+          "year": "2023",
+          "heading": "Fleet Software/Dashboard for Electric Vehicle Charging and Optimization",
+          "url": null,
+          "collaborators": [],
+          "description": "",
+          "attachments": [],
+          "type": "project",
+          "title": "Fleet Software/Dashboard for Electric Vehicle Charging and Optimization",
+          "company": ""
+        },
+        {
+          "id": "BuJHCqeATioYYfVVJDa4",
+          "year": "2023",
+          "heading": "ChargePoint Enterprise Software Onboarding Design",
+          "url": null,
+          "collaborators": [],
+          "description": "Analyzed today's pain points about activating new charging stations into ChargePoint software and designed new onboarding experience to scale the business.",
+          "attachments": [],
+          "type": "project",
+          "title": "ChargePoint Enterprise Software Onboarding Design",
+          "company": ""
+        },
+        {
+          "id": "3oLHkWk6xF6qKoipplA1",
+          "year": "2021",
+          "heading": "Flutter/Dart DevTools",
+          "url": null,
+          "collaborators": [],
+          "description": "Conducted qualitative user research on Flutter/Dart DevTools to improve Flutter developer’s debugging experience.",
+          "attachments": [],
+          "type": "project",
+          "title": "Flutter/Dart DevTools",
+          "company": null
+        },
+        {
+          "id": "BPGOAFsPZqNLms4ggdiV",
+          "year": "2021",
+          "heading": "Knowre math district admin dashboard",
+          "url": null,
+          "collaborators": [],
+          "description": "Designed the dashboard for school district administrators and math curriculum coordinators. The objective of this project was showing high level usage data across schools within a district. So district admin can monitor whether their purchased software is in good use and impact on their students math learning.",
+          "attachments": [],
+          "type": "project",
+          "title": "Knowre math district admin dashboard",
+          "company": null
+        },
+        {
+          "id": "ynHCAj0nxjgBeeSl0CuY",
+          "year": "2020",
+          "heading": "Easy way to enroll students at Knowre math",
+          "url": null,
+          "collaborators": [],
+          "description": "In addition to social login, other convenient ways for teachers to manage student accounts easily were added — creating student accounts on teacher dashboard, bulk upload of student accounts — and increased teacher's productivity.",
+          "attachments": [],
+          "type": "project",
+          "title": "Easy way to enroll students at Knowre math",
+          "company": null
+        },
+        {
+          "id": "FnukshUUKAyg6HBYVMrv",
+          "year": "2019",
+          "heading": "Knowre math student progress data visualization",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "project",
+          "title": "Knowre math student progress data visualization",
+          "company": null
+        },
+        {
+          "id": "WUIPuO2cRtNhrJmCwnYo",
+          "year": "2019",
+          "heading": "Knowre math redesign",
+          "url": null,
+          "collaborators": [],
+          "description": "Our design journey to new Knowre math: What we saw as our customers problems, How we addressed those problems to better serve them.",
+          "attachments": [],
+          "type": "project",
+          "title": "Knowre math redesign",
+          "company": null
+        },
+        {
+          "id": "nCnPrBmHltbeUhMlHJRs",
+          "year": "2017",
+          "heading": "iOS app development",
+          "url": null,
+          "collaborators": [],
+          "description": "Designed, developed and launched the shopping list app.",
+          "attachments": [],
+          "type": "project",
+          "title": "iOS app development",
+          "company": null
+        }
+      ]
+    },
+    {
+      "name": "Work Experience",
+      "items": [
+        {
+          "id": "41bKbOvxTRD0llrBGn3f",
+          "year": "2022 — 2024",
+          "heading": "UX designer at ChargePoint",
+          "url": null,
+          "collaborators": [],
+          "description": "Design the enterprise software of electric vehicle charging network, fleet operations, bus depot management",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "UX designer",
+          "company": "ChargePoint",
+          "location": ""
+        },
+        {
+          "id": "yx72XPiwFIoXJACM9pjd",
+          "year": "2021 — 2021",
+          "heading": "UX researcher at Google via Prounlimited",
+          "url": null,
+          "collaborators": [],
+          "description": "Qualitative user research on Dart DevTools to improve developer’s debugging experience",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "UX researcher",
+          "company": "Google via Prounlimited",
+          "location": null
+        },
+        {
+          "id": "kPTqfFlFyfcmHpI2AcIZ",
+          "year": "2018 — 2021",
+          "heading": "UX designer, Product manager at Knowre",
+          "url": null,
+          "collaborators": [],
+          "description": "Interaction designed Knowre math teacher dashboard, Design iteration with prototypes, Qualitative/Quantitative user research",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "UX designer, Product manager",
+          "company": "Knowre",
+          "location": null
+        },
+        {
+          "id": "i1LwWHa9h04Zsi4AijF8",
+          "year": "2017 — 2018",
+          "heading": "Solo UX designer & iOS developer at Personal project",
+          "url": null,
+          "collaborators": [],
+          "description": "Designed, developed and launched 2 iOS apps",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Solo UX designer & iOS developer",
+          "company": "Personal project",
+          "location": null
+        },
+        {
+          "id": "QlyjjHwFCud2LTXPBZfh",
+          "year": "2012 — 2016",
+          "heading": "Mom, School volunteer, Art docent at Schools",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Mom, School volunteer, Art docent",
+          "company": "Schools",
+          "location": null
+        },
+        {
+          "id": "LOdGSSgQF4Eh9eVWgdvm",
+          "year": "2008 — 2011",
+          "heading": "UX researcher, Product manager at Naver",
+          "url": null,
+          "collaborators": [],
+          "description": "Front Page and its admin system, \bComment component",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "UX researcher, Product manager",
+          "company": "Naver",
+          "location": null
+        },
+        {
+          "id": "TEqQxqUa8Qyqklm9XCLB",
+          "year": "2006 — 2007",
+          "heading": "UX designer, UX manager at Olaworks",
+          "url": null,
+          "collaborators": [],
+          "description": "Established user research integrated design process for early stage startup, Interaction designed a photo app for desktop",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "UX designer, UX manager",
+          "company": "Olaworks",
+          "location": null
+        },
+        {
+          "id": "Q3gJXCeApAR6gN41o2wS",
+          "year": "2003 — 2006",
+          "heading": "Interaction designer at Yahoo! Korea",
+          "url": null,
+          "collaborators": [],
+          "description": "Interaction designed Y! Gugi local search and Y! News, Worked on Y! interaction design pattern library",
+          "attachments": [],
+          "type": "workExperience",
+          "title": "Interaction designer",
+          "company": "Yahoo! Korea",
+          "location": null
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "items": [
+        {
+          "id": "m7qCDeHzp4BEDbPXMGza",
+          "year": "2000 — 2002",
+          "heading": "Master of Graphic Design at NC State University",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": "Master of Graphic Design",
+          "school": "NC State University",
+          "location": null
+        },
+        {
+          "id": "fH6HBMYFyvtbevw6BGX9",
+          "year": "1996 — 2000",
+          "heading": "Bachelor of Science in Industrial Design at Korea Advanced Institute of Science and Technology",
+          "url": null,
+          "collaborators": [],
+          "description": null,
+          "attachments": [],
+          "type": "education",
+          "degree": null,
+          "school": "Bachelor of Science in Industrial Design at Korea Advanced Institute of Science and Technology",
+          "location": null
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "items": [
+        {
+          "id": "5hxlBPikjhm9ScKueHgA",
+          "platform": "LinkedIn",
+          "handle": "eunjung-cho-designer",
+          "url": "https://linkedin.com/in/eunjung-cho-designer"
+        }
+      ]
+    }
+  ]
+}
