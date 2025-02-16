@@ -1,0 +1,54 @@
+---
+title: Reflect student's level of understanding
+description: By Eunjung Cho
+---
+Designing student's score data to reflect their understanding on problems
+
+![Final Design: Students table shown on teacher dashboard. This data view provides a real-time overview of how each student in the class is doing overall. ](/content/writing/FnukshUUKAyg6HBYVMrv-1.png)
+
+## Problem
+
+Knowre Math provides student support modeled after the one-on-one interaction between students and teachers.([Walk Me Through](https://www.knowre.com/knowre-personalized-math-platform-walkmethrough-support) feature). Due to the vast array of support resources available to students and the limited data available on the previous version of teacher dashboard—viewing student achievement as simply correct or incorrect, it was often difficult for teachers to identify students' level of independence until assessment time. We wanted to help teachers identify students who need to continue practicing in order to independently solve problems.
+
+## Design iteration
+
+After many rounds of brainstorming/concept testing sessions with cross functional teams, we designed the score system with two metrics to show not only the percentage a student gets problems correct but also to show the amount of support a student used while solving problems. Here are two metrics respectively.
+
+* **Achvmt**: Number of problems correct out of the total number of problems attempted.
+
+* **KSS**: The Knowre Success Score (KSS) is an indicator of the amount of support a student is utilizing AND whether or not the answer is correct. Must be understood in relation to Achvmt.
+
+Based on this concept of two metrics, we did a couple of design iteration shown below.
+
+![Round1_idea1: Tried to show %completed and score in one bar. This idea was a bit wild. But the idea of overlapping scores(KSS|Achvmt) was well received and we decided to improve from here.](/content/writing/FnukshUUKAyg6HBYVMrv-2.png)
+![Round1_idea2: Dropped this idea, because we came to the conclusion that in education, score data(KSS, Achvmt) is perceived more valuable than %completed.  Quality over quantity. Agreed to make more important thing prominently.](/content/writing/FnukshUUKAyg6HBYVMrv-3.png)
+![Round2: Refined idea1 from round1. Separated score data from %compeleted to avoid confusion. Made score data(KSS, Achvmt) looked more prominently than %completed data.](/content/writing/FnukshUUKAyg6HBYVMrv-4.png)
+![Round3: Visual refinement has done to the bar graph to mitigate compexity of webfront development work. For %completed data visualization, new design was introduced.](/content/writing/FnukshUUKAyg6HBYVMrv-5.png)
+
+## Solution
+
+This is the final design rolled out.
+
+![](/content/writing/FnukshUUKAyg6HBYVMrv-6.png)
+
+Pay attention to the gap between a student’s Achvmt and KSS scores. The larger the gap, the greater the amount of support the student is using to get to the right answer. If the difference is quite large (ie. high Achvmt and lower KSS) it usually means that while the student has been able to come to the right answer, they are doing so with the help of lots of support. While we encourage students to use support, it is important that students continue practicing so that they are able to answer questions on their own.
+
+**In Focus: Color Coding**
+
+We wanted teachers to identify students who are struggling at a quick glance. To support that, we set the threshold score to 80, and encourage teachers to pay more attention to students who's score is less than 80. To give a visual cue, we color-coded as following:
+
+* Orange= Scores that are lesson than or equal to 79
+
+* Green= Scores that are greater than or equal to 80
+
+---
+
+In this project, our goal was helping teachers gain more insights on student's independence on their learning progress by introducing a new data point, KSS — Knowre Success Score. Many teachers who have substantial understanding on Knowre math's Walk- me-through get this concept right away. However, for some new customer teachers who is not familiar with the product yet, we found that it takes more time to understand the meaning of this data.
+
+## My contributions
+
+As an interaction designer, I led a brainstorming workshop with the cross functional teams. I did low fidelity sketches and wireframes for design iterations.
+
+When we decided to implement and ship this feature, I closely collaborated with the UI designer, the frontend developer and the backend developers to communicate the design specification.
+
+After rolling out our 1st version, I carefully monitored customers' feedback with our customer success manager and improved UI accordingly.
