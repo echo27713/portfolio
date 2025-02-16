@@ -175,7 +175,7 @@ const HomePage = () => {
       <header className="profile-section">
         <div className="profile-header">
           <img
-            src="/profile/profilePhoto.jpg"
+            src={process.env.PUBLIC_URL + "/profile/profilePhoto.jpg"}
             alt="Eunjung Cho"
             className="profile-photo"
           />
@@ -211,7 +211,7 @@ const HomePage = () => {
                   <Link to={`/projects/${project.id}`}>
                     <div className="section-thumbnail">
                       <img
-                        src={project.thumbnail}
+                        src={process.env.PUBLIC_URL + project.thumbnail}
                         alt={`${project.title} thumbnail`}
                       />
                     </div>
@@ -262,7 +262,7 @@ const HomePage = () => {
                     {edu.thumbnails.map((thumbnail, i) => (
                       <img
                         key={i}
-                        src={thumbnail}
+                        src={process.env.PUBLIC_URL + thumbnail}
                         alt={`${edu.school} design ${i + 1}`}
                         className="school-thumbnail"
                       />
