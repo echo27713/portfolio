@@ -12,7 +12,9 @@ const ProjectDetailPage = () => {
     const fetchDetails = async () => {
       try {
         // Fetch markdown file
-        const detailsResponse = await fetch(`/projects/${id}.md`);
+        const detailsResponse = await fetch(
+          `${process.env.PUBLIC_URL}/projects/${id}.md`
+        );
         if (!detailsResponse.ok) throw new Error("Markdown file not found");
         const details = await detailsResponse.text();
         setContent(details);
@@ -22,7 +24,7 @@ const ProjectDetailPage = () => {
         for (let i = 1; i <= 20; i++) {
           const extensions = ["png", "gif", "mp4"];
           for (const ext of extensions) {
-            const filePath = `/projects/${id}-${i}.${ext}`;
+            const filePath = `${process.env.PUBLIC_URL}/projects/${id}-${i}.${ext}`;
             try {
               const response = await fetch(filePath);
               if (response.ok) {
