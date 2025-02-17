@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
+import "../ProjectDetailPage.css";
+
+// Custom image renderer for markdown content
+const MarkdownImage = ({ src, alt }) => {
+  // Prepend PUBLIC_URL if the src is relative
+  const fullSrc = src.startsWith("/") ? process.env.PUBLIC_URL + src : src;
+  return <img src={fullSrc} alt={alt} className="markdown-image" />;
+};
 
 const ProjectDetailPage = () => {
   const { id } = useParams();

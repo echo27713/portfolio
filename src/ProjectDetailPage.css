@@ -1,0 +1,65 @@
+/* Container for the project detail page */
+.project-detail {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Headings */
+.project-detail h1,
+.project-detail h2,
+.project-detail h3,
+.project-detail h4,
+.project-detail h5,
+.project-detail h6 {
+  margin: 1.5rem 0 1rem;
+  font-weight: 600;
+}
+
+/* Paragraphs */
+.project-detail p {
+  margin-bottom: 1rem;
+}
+
+/* Custom styling for markdown images */
+.markdown-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional media section */
+.project-media {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.project-media h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Media images and videos */
+.media-image,
+.media-video {
+  display: block;
+  max-width: 100%;
+  margin: 1rem auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 2rem;
+}
