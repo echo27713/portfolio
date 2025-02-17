@@ -24,7 +24,7 @@ const HomePage = () => {
       year: "2023",
       title: "ChargePoint Enterprise Software Onboarding Design",
       description:
-        "Analyzed today's pain points about activating new charging stations into ChargePoint software and designed new onboarding experience to scale the business.",
+        "Analyzed today's pain points about activating new charging stations into ChargePoint software and designed new onboarding experience to scale business.",
       thumbnail: "/projects/nd5lgxnHXb0jy3C5uuQL-4.png",
     },
     {
@@ -96,15 +96,15 @@ const HomePage = () => {
       endYear: "2021",
       jobTitle: "UX Designer & Product Manager",
       company: "Knowre",
-      description:
-        "Redesigned Knowre Math teacher dashboard and conducted iterative design testing.",
+      description: "Redesigned Knowre Math teacher dashboard.",
     },
     {
       startYear: "2017",
       endYear: "2018",
       jobTitle: "Solo UX Designer & iOS Developer",
       company: "Personal Projects",
-      description: "Designed, developed and launched 2 iOS apps",
+      description:
+        "Learned how to code. Designed, developed, and launched 2 iOS apps.",
     },
 
     {
@@ -112,6 +112,7 @@ const HomePage = () => {
       endYear: "2016",
       jobTitle: "Mom, School volunteer, Art docent",
       company: "School",
+      description: "Spent quality time with my two kids.",
     },
     {
       startYear: "2022",
@@ -143,7 +144,7 @@ const HomePage = () => {
       startYear: "2000",
       endYear: "2002",
       degree: "Master of Graphic Design",
-      school: "NC State University",
+      school: "North Carolina State University",
       thumbnails: [
         "/projects/ncstate-1.jpg",
         "/projects/ncstate-2.jpg",
@@ -154,7 +155,7 @@ const HomePage = () => {
       startYear: "1996",
       endYear: "2000",
       degree: "Bachelor of Science in Industrial Design",
-      school: "KAIST",
+      school: "Korea Advanced Institute of Science and Technology",
       thumbnails: [
         "/projects/kaist-1.jpg",
         "/projects/kaist-2.jpg",
@@ -181,17 +182,16 @@ const HomePage = () => {
           />
           <div className="profile-info">
             <h1>{profileData.displayName}</h1>
-            <p>{profileData.profession}</p>
-            <p>{profileData.location}</p>
+            <h2>{profileData.profession}</h2>
+            <h2>{profileData.location}</h2>
           </div>
         </div>
-        <h2>About</h2>
+        <h2>ABOUT</h2>
         <p className="profile-about">
           {profileData.about.split("\n\n").map((line, index) => (
             <React.Fragment key={index}>
               {line}
-              <br />
-              <br />
+              <br></br>
             </React.Fragment>
           ))}
         </p>
@@ -199,7 +199,7 @@ const HomePage = () => {
 
       {/*Project Section */}
       <section className="section">
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
         <ul className="section-list">
           {projects.map((project) => (
             <li key={project.id} className="section-item">
@@ -225,7 +225,7 @@ const HomePage = () => {
 
       {/* Work Experience Section */}
       <section className="section">
-        <h2>Work Experience</h2>
+        <h2>WORK EXPERIENCE</h2>
         <ul className="section-list">
           {workExperience.map((job, index) => (
             <li key={index} className="section-item">
@@ -245,7 +245,7 @@ const HomePage = () => {
 
       {/* Education Section */}
       <section className="section">
-        <h2>Education</h2>
+        <h2>EDUCATION</h2>
         <ul className="section-list">
           {education.map((edu, index) => (
             <li key={index} className="section-item">
