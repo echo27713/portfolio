@@ -210,8 +210,16 @@ const HomePage = () => {
                 {project.thumbnail && (
                   <Link to={`/projects/${project.id}`}>
                     <div className="section-thumbnail">
-                      <img
+                      {/* <img
                         src={process.env.PUBLIC_URL + project.thumbnail}
+                        alt={`${project.title} thumbnail`}
+                      /> */}
+                      <img
+                        src={`${
+                          process.env.NODE_ENV === "production"
+                            ? process.env.PUBLIC_URL
+                            : process.env.PUBLIC_URL
+                        }${project.thumbnail}`}
                         alt={`${project.title} thumbnail`}
                       />
                     </div>
