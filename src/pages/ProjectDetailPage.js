@@ -1,12 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import "../ProjectDetailPage.css";
 
 // Custom image renderer for markdown content
 const MarkdownImage = ({ src, alt }) => {
-  // Prepend PUBLIC_URL if the src is relative
-  const fullSrc = src.startsWith("/") ? process.env.PUBLIC_URL + src : src;
+  let fullSrc = src;
+  console.log("I am in MarkdownImage function now.");
+  console.log(`src= ${src}, alt=${alt}`);
+  // If the source is relative, explicitly point to the projects folder.
+  if (!/^https?:\/\//.test(src) && !src.startsWith("data:")) {
+    // If src doesn't already start wiht '/projects/" prepend it."
+    if (!src.startsWith("/projects/")) {
+      fullSrc =
+        process.env.PUBLIC_URL +
+        "/projects/" +
+        (src.startsWith("/") ? src.substring(1) : src);
+    } else {
+      fullSrc = process.env.PUBLIC_URL + src;
+    }
+  }
   return <img src={fullSrc} alt={alt} className="markdown-image" />;
 };
 
@@ -58,7 +71,17 @@ const ProjectDetailPage = () => {
 
   return (
     <div className="project-detail">
-      <ReactMarkdown>{content}</ReactMarkdown>
+      {/* Back to List Link */}
+      <Link to="/" className="back-to-list">
+        &#8592; Back to List
+      </Link>
+
+      {/* Markdown content with custom image renderer */}
+      <ReactMarkdown components={{ img: MarkdownImage }}>
+        {content}
+      </ReactMarkdown>
+
+      {/* Media Section */}
       <div className="project-media">
         {media.map((item, index) => {
           if (item.type === "png" || item.type === "gif") {
@@ -67,11 +90,12 @@ const ProjectDetailPage = () => {
                 key={index}
                 src={item.path}
                 alt={`Project media ${index + 1}`}
+                className="media-image"
               />
             );
           } else if (item.type === "mp4") {
             return (
-              <video key={index} controls>
+              <video key={index} controls className="media-video">
                 <source src={item.path} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
@@ -80,6 +104,15 @@ const ProjectDetailPage = () => {
           return null;
         })}
       </div>
+
+      {/* Back to List Link */}
+      <Link
+        to="/"
+        className="back-to-list"
+        onClick={() => window.scrollTo(0, 0)}
+      >
+        &#8592; Back to List
+      </Link>
     </div>
   );
 };

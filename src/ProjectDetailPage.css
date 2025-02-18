@@ -1,9 +1,29 @@
+@import url("https://use.typekit.net/duv7vwy.css");
+
+/* from Flexible Typesetting */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+@viewport {
+  width: device-width;
+}
+:root {
+  font-size: 100%;
+}
+
 /* Container for the project detail page */
+
 .project-detail {
   max-width: 720px;
   margin: 2rem auto;
   padding: 1rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Capitolium-News-2", serif;
   line-height: 1.6;
   color: #333;
 }
@@ -62,4 +82,18 @@
   color: red;
   text-align: center;
   margin-top: 2rem;
+}
+
+.back-to-list {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-to-list:hover {
+  text-decoration: underline;
 }

@@ -17,7 +17,7 @@ const HomePage = () => {
       title: "Fleet Software for Electric Vehicle Charging and Optimization",
       description:
         "Designed dashboard for real-time EV charging activities in bus depot.",
-      thumbnail: "/projects/6ggjU98JEQC15PStx4rh-1.png",
+      thumbnail: "/projects/content/writing/6ggjU98JEQC15PStx4rh-7.png",
     },
     {
       id: "nd5lgxnHXb0jy3C5uuQL",
@@ -25,7 +25,7 @@ const HomePage = () => {
       title: "ChargePoint Enterprise Software Onboarding Design",
       description:
         "Analyzed today's pain points about activating new charging stations into ChargePoint software and designed new onboarding experience to scale business.",
-      thumbnail: "/projects/nd5lgxnHXb0jy3C5uuQL-4.png",
+      thumbnail: "/projects/content/writing/nd5lgxnHXb0jy3C5uuQL-4.png",
     },
     {
       id: "1",
@@ -54,7 +54,7 @@ const HomePage = () => {
       title: "Knowre Math Student Progress Data Visualization",
       description:
         "Created visual tools to help teachers understand student progress.",
-      thumbnail: "/projects/FnukshUUKAyg6HBYVMrv-1.png",
+      thumbnail: "/projects/content/writing/FnukshUUKAyg6HBYVMrv-6.png",
     },
     {
       id: "WUIPuO2cRtNhrJmCwnYo",
@@ -62,14 +62,14 @@ const HomePage = () => {
       title: "Knowre Math Redesign",
       description:
         "Redesigned the Knowre Math platform for improved user engagement.",
-      thumbnail: "/projects/WUIPuO2cRtNhrJmCwnYo-1.png",
+      thumbnail: "/projects/content/writing/WUIPuO2cRtNhrJmCwnYo-4.png",
     },
     {
       id: "nCnPrBmHltbeUhMlHJRs",
       year: "2017",
       title: "iOS Development",
       description: "Designed, developed and launched the shopping list app.",
-      thumbnail: "/projects/nCnPrBmHltbeUhMlHJRs-0.png",
+      thumbnail: "/projects/content/writing/nCnPrBmHltbeUhMlHJRs-0.png",
     },
   ];
 
