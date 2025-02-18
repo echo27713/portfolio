@@ -53,7 +53,7 @@ p {
 /* Profile Section */
 .profile-section {
   margin-bottom: 1em;
-  border: 1px dashed #007bff;
+  /* border: 1px dashed #007bff; */
 }
 
 /* Profile Header: Photo and Info */
@@ -98,7 +98,7 @@ p {
 /* CSS for Section format */
 .section {
   margin-top: 2em;
-  border: 1px dashed #007bff;
+  /* border: 1px dashed #007bff; */
 }
 
 .section-list {
