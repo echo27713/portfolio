@@ -17,7 +17,7 @@ const HomePage = () => {
       title: "Fleet Software for Electric Vehicle Charging and Optimization",
       description:
         "Designed dashboard for real-time EV charging activities in bus depot.",
-      thumbnail: "/projects/content/writing/6ggjU98JEQC15PStx4rh-7.png",
+      thumbnail: "/projects/content/writing/6ggjU98JEQC15PStx4rh-8.png",
     },
     {
       id: "nd5lgxnHXb0jy3C5uuQL",
@@ -54,7 +54,7 @@ const HomePage = () => {
       title: "Knowre Math Student Progress Data Visualization",
       description:
         "Created visual tools to help teachers understand student progress.",
-      thumbnail: "/projects/content/writing/FnukshUUKAyg6HBYVMrv-6.png",
+      thumbnail: "/projects/content/writing/FnukshUUKAyg6HBYVMrv-0.png",
     },
     {
       id: "WUIPuO2cRtNhrJmCwnYo",
@@ -62,7 +62,7 @@ const HomePage = () => {
       title: "Knowre Math Redesign",
       description:
         "Redesigned the Knowre Math platform for improved user engagement.",
-      thumbnail: "/projects/content/writing/WUIPuO2cRtNhrJmCwnYo-4.png",
+      thumbnail: "/projects/content/writing/WUIPuO2cRtNhrJmCwnYo-8.png",
     },
     {
       id: "nCnPrBmHltbeUhMlHJRs",
