@@ -1,6 +1,5 @@
 ---
-title: Reflect student's level of understanding
-description: By Eunjung Cho
+# How to make student progress data to Reflect their level of understanding
 ---
 Designing student's score data to reflect their understanding on problems
 
