@@ -46,7 +46,7 @@ const ProjectDetailPage = () => {
         // Fetch associated media files
         const mediaFiles = [];
         for (let i = 1; i <= 20; i++) {
-          const extensions = ["png", "gif", "mp4"];
+          const extensions = ["png", "gif"];
           for (const ext of extensions) {
             const filePath = `${process.env.PUBLIC_URL}/projects/${id}-${i}.${ext}`;
             try {
