@@ -1,7 +1,5 @@
----
-title: List the simplest: iOS app
-description: By Eunjung Cho
----
+# List the simplest: iOS app development
+
 I initiated this project to solve my own daily problem. Worked as a solo designer and iOS(Swift) developer.
 
 ![](/content/writing/nCnPrBmHltbeUhMlHJRs-1.png)

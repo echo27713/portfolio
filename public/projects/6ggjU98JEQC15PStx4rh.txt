@@ -1,4 +1,4 @@
-### ChargePoint Fleet Enterprise Software
+# ChargePoint Fleet Enterprise Software
 
 This project was part of the development of ChargePoint's next-generation enterprise software suites.
 
