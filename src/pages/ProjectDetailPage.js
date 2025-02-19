@@ -34,8 +34,11 @@ const ProjectDetailPage = () => {
       try {
         // Fetch markdown file
         const detailsResponse = await fetch(
-          `${process.env.PUBLIC_URL}/projects/${id}.md`
+          `${process.env.PUBLIC_URL}/projects/${id}.txt`
         );
+        console.log("I am in fetchDetails in ProjectDetailPage.js");
+        console.log(`detailsResponse=${detailsResponse}`);
+        console.log("detailsResponse = ", detailsResponse);
         if (!detailsResponse.ok) throw new Error("Markdown file not found");
         const details = await detailsResponse.text();
         setContent(details);
