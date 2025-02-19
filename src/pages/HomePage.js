@@ -37,14 +37,14 @@ const HomePage = () => {
     {
       id: "2",
       year: "2021",
-      title: "Knowre math district admin dashboard",
+      title: "Knowre Math District Admin Dashboard",
       description:
         "Designed the dashboard for school district administrators and math curriculum coordinators. The objective of this project was showing high level usage data across schools within a district. So district admin can monitor whether their purchased software is in good use and impact on their students math learning.",
     },
     {
       id: "3",
       year: "2020",
-      title: "Easy way to enroll students at Knowre math",
+      title: "Easy Way to Enroll Students at Knowre Math",
       description:
         "In addition to social login, other convenient ways for teachers to manage student accounts easily were added — creating student accounts on teacher dashboard, bulk upload of student accounts — and increased teacher's productivity.",
     },
@@ -59,7 +59,7 @@ const HomePage = () => {
     {
       id: "WUIPuO2cRtNhrJmCwnYo",
       year: "2019",
-      title: "Knowre Math Redesign",
+      title: "Knowre Math Teacher Dashboard Redesign",
       description:
         "Redesigned the Knowre Math platform for improved user engagement.",
       thumbnail: "/projects/content/writing/WUIPuO2cRtNhrJmCwnYo-8.png",
@@ -112,7 +112,7 @@ const HomePage = () => {
       endYear: "2016",
       jobTitle: "Mom, School volunteer, Art docent",
       company: "School",
-      description: "Spent quality time with my two kids.",
+      // description: "Spent quality time with my two kids.",
     },
     {
       startYear: "2022",

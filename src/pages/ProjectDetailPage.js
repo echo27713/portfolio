@@ -6,8 +6,7 @@ import "../ProjectDetailPage.css";
 // Custom image renderer for markdown content
 const MarkdownImage = ({ src, alt }) => {
   let fullSrc = src;
-  console.log("I am in MarkdownImage function now.");
-  console.log(`src= ${src}, alt=${alt}`);
+
   // If the source is relative, explicitly point to the projects folder.
   if (!/^https?:\/\//.test(src) && !src.startsWith("data:")) {
     // If src doesn't already start wiht '/projects/" prepend it."
@@ -36,12 +35,11 @@ const ProjectDetailPage = () => {
         const detailsResponse = await fetch(
           `${process.env.PUBLIC_URL}/projects/${id}.txt`
         );
-        console.log("I am in fetchDetails in ProjectDetailPage.js");
-        console.log(`detailsResponse=${detailsResponse}`);
-        console.log("detailsResponse = ", detailsResponse);
+
         if (!detailsResponse.ok) throw new Error("Markdown file not found");
         const details = await detailsResponse.text();
         setContent(details);
+        console.log("in fetchDetails Func, details:", details);
 
         // Fetch associated media files
         const mediaFiles = [];
@@ -85,28 +83,29 @@ const ProjectDetailPage = () => {
       </ReactMarkdown>
 
       {/* Media Section */}
-      <div className="project-media">
+      {/* <div className="project-media">
         {media.map((item, index) => {
           if (item.type === "png" || item.type === "gif") {
             return (
               <img
                 key={index}
                 src={item.path}
-                alt={`Project media ${index + 1}`}
+                alt={`Project media ${item.type} ${index + 1}`}
                 className="media-image"
               />
             );
-          } else if (item.type === "mp4") {
-            return (
-              <video key={index} controls className="media-video">
-                <source src={item.path} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            );
           }
+          // else if (item.type === "mp4") {
+          //   return (
+          //     <video key={index} controls className="media-video">
+          //       <source src={item.path} type="video/mp4" />
+          //       Your browser does not support the video tag.
+          //     </video>
+          //   );
+          // }
           return null;
         })}
-      </div>
+      </div> */}
 
       {/* Back to List Link */}
       <Link

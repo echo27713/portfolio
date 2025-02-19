@@ -35,13 +35,23 @@ p {
 .project-detail h4,
 .project-detail h5,
 .project-detail h6 {
-  margin: 1.5rem 0 1rem;
-  font-weight: 600;
+  margin: 1.5rem 0 1.5rem;
+  font-weight: 300;
+  font-family: "Capitolium-2", serif;
+  font-size: 2.2rem;
+  line-height: 2rem;
+  font-variant-caps: all-small-caps;
+}
+
+.project-detail h2 {
+  font-size: 1.8rem;
 }
 
 /* Paragraphs */
 .project-detail p {
   margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 /* Custom styling for markdown images */

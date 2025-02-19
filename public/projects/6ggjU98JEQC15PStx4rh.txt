@@ -1,6 +1,5 @@
 ---
-title: Redesign of ChargePoint Fleet Enterprise Software
-description: By Eunjung Cho
+# ChargePoint Fleet Enterprise Software
 ---
 This project was part of the development of ChargePoint's next-generation enterprise software suites.
 
@@ -8,11 +7,11 @@ Designing Fleet Software for Real-Time Charging Activity: Tracking Multiple Depo
 
 ![Example Screenshot from Final Design: This single-depot view efficiently indicates which vehicles in the depot are at risk, enabling depot managers to quickly identify and address issues, ensuring timely dispatch of vehicles on their assigned routes.](/content/writing/6ggjU98JEQC15PStx4rh-1.png)
 
-## Problem
+## problem
 
 In their push towards sustainability, public transit agencies aimed to electrify their bus fleets and partnered with ChargePoint for charging solutions. However, the initial enterprise fleet software from ChargePoint struggled to effectively deliver critical information, highlighting a need for improvements.
 
-## Screenshots from The Existing Software:
+## screenshots from the existing software
 
 ![All Depots Overview Page: This page should aim to present a high-level overview of charging activities across multiple depots, yet it mistakenly highlights less important data such as depot's location with map thumbnails, rather than focusing on the critical information of real-time charging data in depots.](/content/writing/6ggjU98JEQC15PStx4rh-2.png)
 ![Charging Activity Data Table: The existing product displays charging activity and dispatch information on separate pages. This design requires users to toggle back and forth between the two to fully understand the day's operations and potential risks..](/content/writing/6ggjU98JEQC15PStx4rh-3.png)
