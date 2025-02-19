@@ -25,7 +25,7 @@ const MarkdownImage = ({ src, alt }) => {
 const ProjectDetailPage = () => {
   const { id } = useParams();
   const [content, setContent] = useState("");
-  const [media, setMedia] = useState([]);
+  // const [media, setMedia] = useState([]);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -41,23 +41,24 @@ const ProjectDetailPage = () => {
         setContent(details);
         console.log("in fetchDetails Func, details:", details);
 
-        // Fetch associated media files
-        const mediaFiles = [];
-        for (let i = 1; i <= 20; i++) {
-          const extensions = ["png", "gif"];
-          for (const ext of extensions) {
-            const filePath = `${process.env.PUBLIC_URL}/projects/${id}-${i}.${ext}`;
-            try {
-              const response = await fetch(filePath);
-              if (response.ok) {
-                mediaFiles.push({ type: ext, path: filePath });
-              }
-            } catch {
-              // Ignore missing files
-            }
-          }
-        }
-        setMedia(mediaFiles);
+        // // Fetch associated media files
+        // const mediaFiles = [];
+        // for (let i = 1; i <= 20; i++) {
+        //   const extensions = ["png", "gif"];
+        //   for (const ext of extensions) {
+        //     const filePath = `${process.env.PUBLIC_URL}/projects/content/writing/${id}-${i}.${ext}`;
+        //     try {
+        //       const response = await fetch(filePath);
+        //       if (response.ok) {
+        //         mediaFiles.push({ type: ext, path: filePath });
+        //       }
+        //     } catch {
+        //       // Ignore missing files
+        //     }
+        //   }
+        // }
+        // setMedia(mediaFiles);
+        // console.log("mediaFiles:", mediaFiles);
       } catch (err) {
         setError(err.message);
       }
