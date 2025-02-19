@@ -1,6 +1,4 @@
----
 # Redesign Knowre Math Teacher Dashboard
----
 
 Knowre math is an online core supplement for Grades 1-12 that identifies and addresses individual learning gaps, helping teachers personalize learning for all their students.
 
