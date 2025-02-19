@@ -1,6 +1,5 @@
----
 ## Designing ChargePoint Self-Serve Onboarding for Charging Station Activation
----
+
 The legacy ChargePoint enterprise software's manual station provisioning process hindered scalability. A significant business process overhaul was crucial for rapid station onboarding and achieving a 10x growth.
 
 ## Pain Analysis of Today's Customer Journey

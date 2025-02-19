@@ -1,6 +1,5 @@
----
 # How to make student progress data to Reflect their level of understanding
----
+
 Designing student's score data to reflect their understanding on problems
 
 ![Final Design: Students table shown on teacher dashboard. This data view provides a real-time overview of how each student in the class is doing overall. ](/content/writing/FnukshUUKAyg6HBYVMrv-1.png)
