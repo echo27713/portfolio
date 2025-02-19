@@ -169,6 +169,8 @@ const HomePage = () => {
       ],
     },
   ];
+  /* check remote url */
+  console.log("process.env.PUBLIC_URL", process.env.PUBLIC_URL);
 
   return (
     <div className="home-page">
