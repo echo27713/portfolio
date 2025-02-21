@@ -64,6 +64,35 @@ p {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Small image: fixed width (480px) but responsive */
+.img-small {
+  width: 480px;
+  max-width: 100%;
+}
+
+/* Large image: full width */
+.img-large {
+  width: 100%;
+  height: auto;
+}
+
+/* Container for the image and its caption */
+.image-figure {
+  text-align: left;
+  margin: 1rem 0;
+}
+
+/* Common caption style for all images */
+.img-caption {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+  /* font-weight: 600; */
+  line-height: 1.2rem;
+  color: #666;
+  margin-top: 0.1rem;
+}
+
 /* Additional media section */
 .project-media {
   margin-top: 2rem;

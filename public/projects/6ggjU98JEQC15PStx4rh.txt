@@ -8,13 +8,13 @@ Designing Fleet Software for Real-Time Charging Activity: Tracking Multiple Depo
 
 ## problem
 
-In their push towards sustainability, public transit agencies aimed to electrify their bus fleets and partnered with ChargePoint for charging solutions. However, the initial enterprise fleet software from ChargePoint struggled to effectively deliver critical information, highlighting a need for improvements.
+Public transit agencies, striving for sustainability, aimed to electrify their bus fleets and partnered with ChargePoint for charging solutions. However, ChargePoint’s initial enterprise fleet software fell short in delivering critical information effectively and needed improvement.
 
 ## screenshots from the existing software
 
-![All Depots Overview Page: This page should aim to present a high-level overview of charging activities across multiple depots, yet it mistakenly highlights less important data such as depot's location with map thumbnails, rather than focusing on the critical information of real-time charging data in depots.](/content/writing/6ggjU98JEQC15PStx4rh-2.png)
-![Charging Activity Data Table: The existing product displays charging activity and dispatch information on separate pages. This design requires users to toggle back and forth between the two to fully understand the day's operations and potential risks..](/content/writing/6ggjU98JEQC15PStx4rh-3.png)
-![Dispatch Data Table: The table's text-heavy format fails to effectively highlight crucial information. Users struggle to immediately identify vehicles at risk, as it necessitates reading each entry line by line.](/content/writing/6ggjU98JEQC15PStx4rh-4.png)
+![All Depots Overview Page: This page should aim to present a high-level overview of charging activities across multiple depots, yet it mistakenly highlights less important data such as depot's location with map thumbnails, rather than focusing on the critical information of real-time charging data in depots.](/content/writing/6ggjU98JEQC15PStx4rh-2.png?size=small)
+![Charging Activity Data Table: The existing product displays charging activity and dispatch information on separate pages. This design requires users to toggle back and forth between the two to fully understand the day's operations and potential risks..](/content/writing/6ggjU98JEQC15PStx4rh-3.png?size=small)
+![Dispatch Data Table: The table's text-heavy format fails to effectively highlight crucial information. Users struggle to immediately identify vehicles at risk, as it necessitates reading each entry line by line.](/content/writing/6ggjU98JEQC15PStx4rh-4.png?size=small)
 
 ## Redesigning All Depots Overview Page
 
