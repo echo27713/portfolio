@@ -18,11 +18,10 @@ const App = () => {
     //   </Routes>
     // </Router>
 
-    <HashRouter
-      basename={
-        process.env.NODE_ENV === "production" ? process.env.PUBLIC_URL : "/"
-      }
-    >
+    // basename={
+    //   process.env.NODE_ENV === "production" ? process.env.PUBLIC_URL : "/"
+    // }
+    <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects/:id" element={<ProjectDetailPage />} />
