@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 // import MarkdownImage from "../components/MarkdownImage";
-import "../ProjectDetailPage.css";
+import "../css/ProjectDetailPage.css";
 
 // Custom image renderer for markdown content
 const MarkdownImage = ({ src, alt }) => {
@@ -60,25 +60,6 @@ const ProjectDetailPage = () => {
         const details = await detailsResponse.text();
         setContent(details);
         console.log("in fetchDetails Func, detailResponse:", detailsResponse);
-
-        // // Fetch associated media files
-        // const mediaFiles = [];
-        // for (let i = 1; i <= 20; i++) {
-        //   const extensions = ["png", "gif"];
-        //   for (const ext of extensions) {
-        //     const filePath = `${process.env.PUBLIC_URL}/projects/content/writing/${id}-${i}.${ext}`;
-        //     try {
-        //       const response = await fetch(filePath);
-        //       if (response.ok) {
-        //         mediaFiles.push({ type: ext, path: filePath });
-        //       }
-        //     } catch {
-        //       // Ignore missing files
-        //     }
-        //   }
-        // }
-        // setMedia(mediaFiles);
-        // console.log("mediaFiles:", mediaFiles);
       } catch (err) {
         setError(err.message);
       }
@@ -102,31 +83,6 @@ const ProjectDetailPage = () => {
       <ReactMarkdown components={{ img: MarkdownImage }}>
         {content}
       </ReactMarkdown>
-
-      {/* Media Section */}
-      {/* <div className="project-media">
-        {media.map((item, index) => {
-          if (item.type === "png" || item.type === "gif") {
-            return (
-              <img
-                key={index}
-                src={item.path}
-                alt={`Project media ${item.type} ${index + 1}`}
-                className="media-image"
-              />
-            );
-          }
-          // else if (item.type === "mp4") {
-          //   return (
-          //     <video key={index} controls className="media-video">
-          //       <source src={item.path} type="video/mp4" />
-          //       Your browser does not support the video tag.
-          //     </video>
-          //   );
-          // }
-          return null;
-        })}
-      </div> */}
 
       {/* Back to List Link */}
       <Link
