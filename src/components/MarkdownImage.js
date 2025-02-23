@@ -1,3 +1,4 @@
+//something is not working in this js. no images are shown as a result.
 const MarkdownImage = ({ node, alt, src }) => {
   // Prepend /projects to the path if it's not already present.
   let fullSrc = src.startsWith("/projects") ? src : `/projects${src}`;

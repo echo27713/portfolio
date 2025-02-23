@@ -3,6 +3,8 @@ import { useParams, Link } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 // import MarkdownImage from "../components/MarkdownImage";
 import "../css/ProjectDetailPage.css";
+import EmblaCarousel from "../components/Carousel";
+// import useEmblaCarousel from "embla-carousel-react";
 
 // Custom image renderer for markdown content
 const MarkdownImage = ({ src, alt }) => {
@@ -40,6 +42,59 @@ const MarkdownImage = ({ src, alt }) => {
       <figcaption className="img-caption">{alt}</figcaption>
     </figure>
   );
+};
+
+// Custom carousel (<= list) renderer for markdown content
+const MarkdownCarousel = ({ node }) => {
+  let img_list = [];
+
+  // Traverse node and create the list of all images in it.
+  // NOTE: We just ignore everything else!  This code will do something bad
+  // if the list contains anything other than images.
+  // TODO: If we find *anything else* we should probably bail out!
+  for (let child of node.children) {
+    if (child.type === "element" && child.tagName === "li") {
+      for (let c of child.children) {
+        if (c.type === "element" && c.tagName === "img") {
+          img_list.push(c.properties);
+        }
+      }
+    }
+  }
+
+  let fig_list = [];
+
+  for (let img of img_list) {
+    let src = img.src;
+    let alt = img.alt;
+    let fullSrc = src;
+    // Default to a large image style.
+    let imgClass = "img-large";
+    let cleanSrc = fullSrc;
+
+    // If the source is relative, explicitly point to the projects folder.
+    if (!/^https?:\/\//.test(src) && !src.startsWith("data:")) {
+      // If src doesn't already start wiht '/projects/" prepend it."
+      if (!src.startsWith("/projects/")) {
+        fullSrc =
+          process.env.PUBLIC_URL +
+          "/projects/" +
+          (src.startsWith("/") ? src.substring(1) : src);
+      } else {
+        fullSrc = process.env.PUBLIC_URL + src;
+      }
+    }
+
+    fig_list.push(
+      <figure className="image-figure">
+        <img src={fullSrc} alt={alt} className={imgClass} />
+        <figcaption className="img-caption">{alt}</figcaption>
+      </figure>
+    );
+  }
+  console.log("fig_list:", fig_list);
+
+  return <EmblaCarousel list={fig_list} />;
 };
 
 const ProjectDetailPage = () => {
@@ -80,9 +135,12 @@ const ProjectDetailPage = () => {
       </Link>
 
       {/* Markdown content with custom image renderer */}
-      <ReactMarkdown components={{ img: MarkdownImage }}>
+      <ReactMarkdown components={{ img: MarkdownImage, ul: MarkdownCarousel }}>
         {content}
       </ReactMarkdown>
+
+      {/* Carousel test*/}
+      <EmblaCarousel />
 
       {/* Back to List Link */}
       <Link
