@@ -5,8 +5,8 @@ The legacy ChargePoint enterprise software's manual station provisioning process
 ## Pain Analysis of Today's Customer Journey
 
 ![Today's painful customer journey. There are two main actors: ChargePoint activation agent, customer who purchsed charging stations.](/content/writing/nd5lgxnHXb0jy3C5uuQL-1.png)
-![Close-up: ChargePoint activation agent's manual workflow involving data source checks from Salesforce and NetSuite, followed by manual data entry and configuration in the ChargePoint software during customer onboarding.](/content/writing/nd5lgxnHXb0jy3C5uuQL-2.png)
-![Close-up: Customer's Pain Points: Manual Workflow and PDF Activation Form Submission via Email](/content/writing/nd5lgxnHXb0jy3C5uuQL-3.png)
+- ![Close-up: ChargePoint activation agent's manual workflow involving data source checks from Salesforce and NetSuite, followed by manual data entry and configuration in the ChargePoint software during customer onboarding.](/content/writing/nd5lgxnHXb0jy3C5uuQL-2.png)
+- ![Close-up: Customer's Pain Points: Manual Workflow and PDF Activation Form Submission via Email](/content/writing/nd5lgxnHXb0jy3C5uuQL-3.png)
 
 Today's customer onboarding at ChargePoint is entirely manual, irrespective of the volume of purchase. While a personalized, white-glove service is appropriate for large customers with complex requirements and numerous charging stations, a streamlined, self-service provisioning process could significantly benefit smaller customers purchasing fewer than 5 stations with straightforward use cases. Implementing this approach can accelerate ChargePoint's business growth.
 
@@ -36,10 +36,10 @@ Today's customer onboarding at ChargePoint is entirely manual, irrespective of t
 
 ## Wireframes
 
-![](/content/writing/nd5lgxnHXb0jy3C5uuQL-7.png)
-![](/content/writing/nd5lgxnHXb0jy3C5uuQL-8.png)
-![](/content/writing/nd5lgxnHXb0jy3C5uuQL-9.png)
-![](/content/writing/nd5lgxnHXb0jy3C5uuQL-10.png)
+- ![](/content/writing/nd5lgxnHXb0jy3C5uuQL-7.png)
+- ![](/content/writing/nd5lgxnHXb0jy3C5uuQL-8.png)
+- ![](/content/writing/nd5lgxnHXb0jy3C5uuQL-9.png)
+- ![](/content/writing/nd5lgxnHXb0jy3C5uuQL-10.png)
 
 ## My Contribution
 
