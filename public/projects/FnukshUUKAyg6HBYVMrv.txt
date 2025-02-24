@@ -12,16 +12,16 @@ Knowre Math provides student support modeled after the one-on-one interaction be
 
 After many rounds of brainstorming/concept testing sessions with cross functional teams, we designed the score system with two metrics to show not only the percentage a student gets problems correct but also to show the amount of support a student used while solving problems. Here are two metrics respectively.
 
-* **Achvmt**: Number of problems correct out of the total number of problems attempted.
+ **Achvmt**: Number of problems correct out of the total number of problems attempted.
 
-* **KSS**: The Knowre Success Score (KSS) is an indicator of the amount of support a student is utilizing AND whether or not the answer is correct. Must be understood in relation to Achvmt.
+ **KSS**: The Knowre Success Score (KSS) is an indicator of the amount of support a student is utilizing AND whether or not the answer is correct. Must be understood in relation to Achvmt.
 
 Based on this concept of two metrics, we did a couple of design iteration shown below.
 
-![Round1_idea1: Tried to show %completed and score in one bar. This idea was a bit wild. But the idea of overlapping scores(KSS|Achvmt) was well received and we decided to improve from here.](/content/writing/FnukshUUKAyg6HBYVMrv-2.png)
-![Round1_idea2: Dropped this idea, because we came to the conclusion that in education, score data(KSS, Achvmt) is perceived more valuable than %completed.  Quality over quantity. Agreed to make more important thing prominently.](/content/writing/FnukshUUKAyg6HBYVMrv-3.png)
-![Round2: Refined idea1 from round1. Separated score data from %compeleted to avoid confusion. Made score data(KSS, Achvmt) looked more prominently than %completed data.](/content/writing/FnukshUUKAyg6HBYVMrv-4.png)
-![Round3: Visual refinement has done to the bar graph to mitigate compexity of webfront development work. For %completed data visualization, new design was introduced.](/content/writing/FnukshUUKAyg6HBYVMrv-5.png)
+- ![Round1_idea1: Tried to show %completed and score in one bar. This idea was a bit wild. But the idea of overlapping scores(KSS|Achvmt) was well received and we decided to improve from here.](/content/writing/FnukshUUKAyg6HBYVMrv-2.png)
+- ![Round1_idea2: Dropped this idea, because we came to the conclusion that in education, score data(KSS, Achvmt) is perceived more valuable than %completed.  Quality over quantity. Agreed to make more important thing prominently.](/content/writing/FnukshUUKAyg6HBYVMrv-3.png)
+- ![Round2: Refined idea1 from round1. Separated score data from %compeleted to avoid confusion. Made score data(KSS, Achvmt) looked more prominently than %completed data.](/content/writing/FnukshUUKAyg6HBYVMrv-4.png)
+- ![Round3: Visual refinement has done to the bar graph to mitigate compexity of webfront development work. For %completed data visualization, new design was introduced.](/content/writing/FnukshUUKAyg6HBYVMrv-5.png)
 
 ## Solution
 
@@ -35,9 +35,9 @@ Pay attention to the gap between a student’s Achvmt and KSS scores. The larger
 
 We wanted teachers to identify students who are struggling at a quick glance. To support that, we set the threshold score to 80, and encourage teachers to pay more attention to students who's score is less than 80. To give a visual cue, we color-coded as following:
 
-* Orange= Scores that are lesson than or equal to 79
+**Orange**= Scores that are lesson than or equal to 79
 
-* Green= Scores that are greater than or equal to 80
+**Green**= Scores that are greater than or equal to 80
 
 ---
 

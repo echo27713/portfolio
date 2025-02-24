@@ -139,9 +139,6 @@ const ProjectDetailPage = () => {
         {content}
       </ReactMarkdown>
 
-      {/* Carousel test*/}
-      <EmblaCarousel />
-
       {/* Back to List Link */}
       <Link
         to="/"

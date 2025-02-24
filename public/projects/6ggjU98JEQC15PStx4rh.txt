@@ -34,10 +34,10 @@ Aiming for depot managers to swiftly identify severe issues in depots and vehicl
 
 ## Redesigning Single Depot Detail Page
 
-![Design Round1: I improved the vehicle charging data table by adding block/route assignment data, enhancing user awareness of potential operational risks. However, the design remained text and number-heavy, lacking quick, insightful data visualization.](/content/writing/6ggjU98JEQC15PStx4rh-9.png)
-![Design Round2: I merged charging session data with vehicle block assignment data into a time series graph, using bar graphs for clear insights not visible in traditional data tables. Additionally, as a summary at the top of the page, I incorporated a donut chart displaying vehicle statuses, providing an immediate, comprehensive overview.](/content/writing/6ggjU98JEQC15PStx4rh-10.png)
-![Final Deisgn: I applied status colors to the bar graphs for enhanced differentiation and streamlined the visuals for a cleaner, more organized look.](/content/writing/6ggjU98JEQC15PStx4rh-11.png)
-![Close-up: Upon clicking a bar graph, it expands to show additional details in a popover for in-depth information.](/content/writing/6ggjU98JEQC15PStx4rh-12.png)
+- ![Design Round1: I improved the vehicle charging data table by adding block/route assignment data, enhancing user awareness of potential operational risks. However, the design remained text and number-heavy, lacking quick, insightful data visualization.](/content/writing/6ggjU98JEQC15PStx4rh-9.png)
+- ![Design Round2: I merged charging session data with vehicle block assignment data into a time series graph, using bar graphs for clear insights not visible in traditional data tables. Additionally, as a summary at the top of the page, I incorporated a donut chart displaying vehicle statuses, providing an immediate, comprehensive overview.](/content/writing/6ggjU98JEQC15PStx4rh-10.png)
+- ![Final Deisgn: I applied status colors to the bar graphs for enhanced differentiation and streamlined the visuals for a cleaner, more organized look.](/content/writing/6ggjU98JEQC15PStx4rh-11.png)
+- ![Close-up: Upon clicking a bar graph, it expands to show additional details in a popover for in-depth information.](/content/writing/6ggjU98JEQC15PStx4rh-12.png)
 
 ## Final Design: Single Depot Detail Page
 
@@ -47,8 +47,8 @@ Aiming for depot managers to swiftly identify severe issues in depots and vehicl
 
 ## My Contributions
 
-As the solo designer in the fleet pod, I led brainstorming sessions with cross-functional teams and delivered designs from initial low-fidelity sketches to refined designs through multiple design iterations. My varied design contributions played a crucial role in streamlining product/design decisions.\
-\
+As the solo designer in the fleet pod, I led brainstorming sessions with cross-functional teams and delivered designs from initial low-fidelity sketches to refined designs through multiple design iterations. My varied design contributions played a crucial role in streamlining product/design decisions.
+
 Collaborating with the design system team, I contributed creating the concept of strategic color coding in data visualization.
 
 This product is currently under active development and is targeted for launch in Spring 2024.

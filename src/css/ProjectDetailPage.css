@@ -24,6 +24,7 @@ p {
   margin: 2rem auto;
   padding: 1rem;
   font-family: "Capitolium-News-2", serif;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: #333;
 }
@@ -50,7 +51,7 @@ p {
 /* Paragraphs */
 .project-detail p {
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+
   font-weight: 400;
 }
 
@@ -91,29 +92,6 @@ p {
   line-height: 1.2rem;
   color: #666;
   margin-top: 0.1rem;
-}
-
-/* Additional media section */
-.project-media {
-  margin-top: 2rem;
-  border-top: 1px solid #ddd;
-  padding-top: 1rem;
-}
-
-.project-media h2 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-/* Media images and videos */
-.media-image,
-.media-video {
-  display: block;
-  max-width: 100%;
-  margin: 1rem auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Error message styling */
