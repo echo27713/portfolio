@@ -12,14 +12,15 @@
   grid-auto-columns: 100%;
 }
 .embla__slide {
-  height: 600px;
+  /* height: 600px; */
+  height: auto;
   overflow: hidden;
 }
 
 .embla__slide img {
   /* height: 100%; */
   width: 100%;
-  object-fit: ccontain; /* Scales the image to fit entirely inside the container */
+  object-fit: contain; /* Scales the image to fit entirely inside the container */
 }
 
 /* prev/next buttons and dots CSS */
