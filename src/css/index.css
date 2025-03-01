@@ -270,16 +270,19 @@ h2 {
   font-size: 1rem;
   color: #111;
 }
-/* from Flexible Typesetting */
+/* start: from Flexible Typesetting ch4 */
 body {
   margin: 0;
   padding: 0;
-  /* font-family: "Capitolium2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Capitolium2", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  line-height: 1.5;
 }
+main {
+  width: 40em;
+}
+/* end: from Flexible Typesetting ch4 */
 
 p {
   margin-bottom: 1em;
@@ -404,7 +407,7 @@ p {
 
 .section-thumbnail {
   margin-top: 10px;
-  max-width: 360px;
+  max-width: 420px;
   border-radius: 4px; /* Rounded corners */
   overflow: hidden; /* Ensures border-radius applies to the image */
   border: 1px dashed #007bff;
@@ -450,15 +453,23 @@ p {
     padding: 10px; /* Reduced padding for smaller screens */
   }
 
+  h2 {
+    font-size: 1.2rem;
+  }
+
   .profile-about {
     /* white-space: pre-wrap; */
     font-family: "capitolium-news-2", serif;
     max-width: 640px;
     font-size: 1.2rem;
     font-weight: 400;
+    color: #666;
+    margin: 0;
+    width: 100%;
     /* border: 1px dashed #007bff; */
     /* line-height: 1.6; */
   }
+
   .section-details h3 {
     font-family: "capitolium-2", serif;
     font-style: normal;
@@ -486,8 +497,9 @@ p {
   }
   .section-year {
     width: auto;
+    font-size: 1rem;
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     color: #666;
   }
   /* When viewing it in mobile, show 1 school thumbnail per row with 100% width. */

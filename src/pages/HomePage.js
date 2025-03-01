@@ -17,7 +17,7 @@ const HomePage = () => {
       title: "Fleet Software for Electric Vehicle Charging and Optimization",
       description:
         "Designed dashboard for real-time EV charging activities in bus depot.",
-      thumbnail: "/projects/content/writing/6ggjU98JEQC15PStx4rh-8.png",
+      thumbnail: "/projects/content/writing/6ggjU98JEQC15PStx4rh-0.png",
     },
     {
       id: "nd5lgxnHXb0jy3C5uuQL",
@@ -115,8 +115,8 @@ const HomePage = () => {
       // description: "Spent quality time with my two kids.",
     },
     {
-      startYear: "2022",
-      endYear: "2022",
+      startYear: "2008",
+      endYear: "2011",
       jobTitle: "UX Researcher, Product Manager",
       company: "Naver",
       description: "Front Page and its admin system, Comment component",
