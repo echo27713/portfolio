@@ -24,7 +24,7 @@ const HomePage = () => {
       year: "2023",
       title: "ChargePoint Enterprise Software Onboarding Design",
       description:
-        "Analyzed today's pain points about activating new charging stations into ChargePoint software and designed new onboarding experience to scale business.",
+        "Analyzed pain points in activating new charging stations in ChargePoint software and designed a scalable onboarding experience to support business growth.",
       thumbnail: "/projects/content/writing/nd5lgxnHXb0jy3C5uuQL-4.png",
     },
     {

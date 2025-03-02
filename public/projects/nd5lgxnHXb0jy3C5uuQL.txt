@@ -1,28 +1,28 @@
-# Designing ChargePoint Self-Serve Onboarding for Charging Station Activation
+# Designing ChargePoint Self-Serve Onboarding for Seamless Charging Station Activation
 
-The legacy ChargePoint enterprise software's manual station provisioning process hindered scalability. A significant business process overhaul was crucial for rapid station onboarding and achieving a 10x growth.
+The manual station provisioning process in ChargePoint’s legacy enterprise software limited scalability. A major overhaul was essential to enable rapid onboarding and support 10x growth.
 
-## Pain Analysis of Today's Customer Journey
+## Pain Point Analysis of the Current Customer Journey
 
-![Today's painful customer journey. There are two main actors: ChargePoint activation agent, customer who purchsed charging stations.](/content/writing/nd5lgxnHXb0jy3C5uuQL-1.png)
-- ![Close-up: ChargePoint activation agent's manual workflow involving data source checks from Salesforce and NetSuite, followed by manual data entry and configuration in the ChargePoint software during customer onboarding.](/content/writing/nd5lgxnHXb0jy3C5uuQL-2.png)
-- ![Close-up: Customer's Pain Points: Manual Workflow and PDF Activation Form Submission via Email](/content/writing/nd5lgxnHXb0jy3C5uuQL-3.png)
+![Today's Painful Customer Journey: Involves two key actors—ChargePoint activation agents and customers who purchased charging stations.](/content/writing/nd5lgxnHXb0jy3C5uuQL-1.png)
+- ![Close-up: The ChargePoint activation agent's manual workflow involves checking multiple business systems, such as Salesforce and NetSuite, entering customer data, and configuring policy settings in ChargePoint software during the customer onboarding meeting.](/content/writing/nd5lgxnHXb0jy3C5uuQL-2.png)
+- ![Close-up: In the current workflow, customers must submit their operational preferences—station usage, access permissions, and pricing—via a PDF form and email it to the ChargePoint activation agent.](/content/writing/nd5lgxnHXb0jy3C5uuQL-3.png)
 
-Today's customer onboarding at ChargePoint is entirely manual, irrespective of the volume of purchase. While a personalized, white-glove service is appropriate for large customers with complex requirements and numerous charging stations, a streamlined, self-service provisioning process could significantly benefit smaller customers purchasing fewer than 5 stations with straightforward use cases. Implementing this approach can accelerate ChargePoint's business growth.
+ChargePoint’s current customer onboarding process is entirely manual, regardless of purchase volume. While a personalized, white-glove service suits large customers with complex needs, a streamlined self-service provisioning process would greatly benefit smaller customers with fewer than five stations and straightforward use cases. This shift could accelerate ChargePoint’s business growth.
 
 ## Design Goal: Get new stations up and running as soon as possible
 
-1. Create a digital self service tool that customers(not CP agents) use to setup org account and provision stations
+Here is a new design approach: Empowering Customers with a Digital Self-Service Onboarding Tool
 
-2. Recommend settings vs Make customers create from scratch
+**Customer-Driven Setup**: Shift the onboarding process from CP agents to customers, enabling them to set up their organization account and provision stations independently.
 
-3. Modular onboarding flows: SW only, SW-HW\
-   decouple each task: \
-   \- adding additional user role from creating account\
-   \- entering bank account from station activation
+**Guided Experience**: Provide recommended settings to streamline onboarding, reducing the need for customers to configure everything from scratch. 
 
-4. Customer support engages only on unique or advanced setting\
-   Inline education on user roles and station policies
+**Modular Onboarding Flows**: Support both software-only and software-hardware setups while decoupling key tasks, such as: Adding user roles separately from account creation./ Entering bank account details independently from station activation.
+
+**Targeted Customer Support**: Engage support only for unique or advanced settings, minimizing agent intervention.
+
+**Inline Education**: Integrate contextual guidance on user roles and station policies to assist customers throughout the process.
 
 ## Initial Idea Sketches
 
@@ -43,6 +43,8 @@ Today's customer onboarding at ChargePoint is entirely manual, irrespective of t
 
 ## My Contribution
 
-I collaborated with a UX researcher on this project. Based on the internal stakeholder interviews(PMs, Onboarding/Renewal Team), we analyzed today's pain points through out onboarding journey. Following this, we envisioned a more seamless onboarding experience for the future. This led to multiple rounds of paper prototype iterations to refine our concepts.\
-\
-The project was well-received by the previous company leadership, but a change in management and limited engineering resources stalled its progress to further design and development stages.
+I collaborated with a UX researcher to analyze onboarding pain points through internal stakeholder interviews with PMs and the Onboarding/Renewal team. Together, we mapped the current onboarding journey and identified key areas for improvement.
+
+Building on these insights, we envisioned a more seamless future onboarding experience, iterating through multiple rounds of paper prototypes to refine our concepts.
+
+The project was well-received by company leadership at the time, but progress stalled due to a management change and limited engineering resources..
