@@ -37,7 +37,6 @@ After collecting feedback from our customers, we were able to list up these prob
 
 2. Knowing whether a student got a problem correct or incorrect is not enough. Although teachers appreciate the fact that Knowre math provides students instructional videos or the walk-me-through supports when needed, they also want their students to continue practicing until they reach to an independent problem-solving level. To encourage that, teachers needed to identify students who have not yet reached this level of independence. Unfortunately, our old product didn't show this level of information. To address this problem, we came up with the idea of Knowre Success Score(KSS) in a newer version of our product— [This design concept is highlighted in a separate project](https://echo27713.github.io/portfolio/#/projects/FnukshUUKAyg6HBYVMrv).
 
-   ***
 
 **Theme2: Easy signup process will help increasing the activation rate.**
 
@@ -45,7 +44,6 @@ After collecting feedback from our customers, we were able to list up these prob
 
 2. When implementing an online education program to an entire school, user account management could come as a big pain for district tech support teams and school administrators. We noticed that in order to ease this problem, many schools utilize Google login via Google education suite/Google classroom, Single-sign-on such as 'Clever login' or even DB sync such as 'Clever secure sync'. They expect a new product that they are going to adopt has this convenience.
 
-   ***
 
 ## Design ideation & solutions
 
@@ -75,11 +73,6 @@ Ideas for theme2: **Easy signup process will help increasing the activation rate
 - ![Bulk upload of student accounts on the Teacher Dashboard](/content/writing/WUIPuO2cRtNhrJmCwnYo-16.png)
 - ![Signup/Login flow](/content/writing/WUIPuO2cRtNhrJmCwnYo-12.png)
 
-
-
-
-
-##
 
 ## My contributions
 

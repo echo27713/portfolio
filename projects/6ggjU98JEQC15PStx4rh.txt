@@ -39,12 +39,9 @@ In Focus: Color Coding – To help depot managers quickly identify severe issues
 
 ![](/content/writing/6ggjU98JEQC15PStx4rh-13.png)
 
----
 
 ## My Contributions
 
 As the solo designer in the fleet pod, I led brainstorming sessions with cross-functional teams and guided the design process from low-fidelity sketches to refined solutions through multiple iterations. My contributions were instrumental in streamlining product and design decisions.
 
 In collaboration with the design system team, I helped develop the strategic use of color coding in data visualization.
-
-This product is currently in active development and is set to launch in Spring 2024.
