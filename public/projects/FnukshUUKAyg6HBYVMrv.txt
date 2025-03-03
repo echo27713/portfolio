@@ -39,7 +39,6 @@ We wanted teachers to identify students who are struggling at a quick glance. To
 
 **Green** = Scores that are greater than or equal to 80
 
----
 
 In this project, our goal was helping teachers gain more insights on student's independence on their learning progress by introducing a new data point, KSS — Knowre Success Score. Many teachers who have substantial understanding on Knowre math's Walk- me-through get this concept right away. However, for some new customer teachers who is not familiar with the product yet, we found that it takes more time to understand the meaning of this data.
 
