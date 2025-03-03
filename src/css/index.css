@@ -347,7 +347,7 @@ p {
   font-size: 1.1rem;
   font-weight: 300;
   /* border: 1px dashed #007bff; */
-  /* line-height: 1.6; */
+  line-height: 1.5;
 }
 
 /* CSS for Section format */
@@ -467,7 +467,7 @@ p {
     margin: 0;
     width: 100%;
     /* border: 1px dashed #007bff; */
-    /* line-height: 1.6; */
+    line-height: 1.4;
   }
 
   .section-details h3 {
