@@ -335,8 +335,9 @@ p {
 .profile-info h2 {
   font-family: "capitolium-news-2", serif;
   margin: 0.2em 0;
-  color: #555;
-  font-size: 1.4rem;
+  color: #666;
+  font-weight: 400;
+  font-size: 1.275rem;
   line-height: 1;
 }
 /* .profile-about could be the same style with section-details p. */
@@ -353,10 +354,6 @@ p {
   font-weight: bold;
 }
 
-.smcp {
-  font-variant: small-caps;
-}
-
 /* recent project link style in About section. */
 .project-link {
   color: #007bff;
@@ -365,6 +362,15 @@ p {
 
 .project-link:hover {
   text-decoration: underline;
+}
+.skills-heading {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  margin-top: 1em;
 }
 
 /* CSS for Section format */
@@ -404,8 +410,8 @@ p {
   font-style: normal;
   font-weight: 300;
   color: #333;
-  font-size: 1.5rem;
-  line-height: 1.4;
+  font-size: 1.4rem;
+  line-height: 1.275;
   margin: 0;
   width: 100%;
   /* border: 1px dashed red; */
@@ -413,11 +419,12 @@ p {
 
 .section-details p {
   font-family: "capitolium-2", serif;
-  font-size: 1.125rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.375;
   font-weight: 300;
-  color: #777;
+  color: #666;
   margin: 0;
+  margin-top: 0.375em;
   /* border: 1px dashed red; */
   width: 100%;
 }
@@ -486,14 +493,18 @@ p {
     /* border: 1px dashed #007bff; */
     line-height: 1.4;
   }
-
+  .skills-heading {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    margin-top: 1.875em;
+  }
   .section-details h3 {
     font-family: "capitolium-2", serif;
     font-style: normal;
     font-weight: 700;
     color: #333;
     font-size: 1.5rem;
-    line-height: 1.4;
+    line-height: 1.2;
     margin: 0;
     width: 100%;
     /* border: 1px dashed red; */
@@ -505,6 +516,7 @@ p {
     font-weight: 400;
     color: #666;
     margin: 0;
+    margin-top: 0.275em;
     /* border: 1px dashed red; */
     width: 100%;
   }
