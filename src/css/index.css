@@ -349,6 +349,23 @@ p {
   /* border: 1px dashed #007bff; */
   line-height: 1.55;
 }
+.profile-about strong {
+  font-weight: bold;
+}
+
+.smcp {
+  font-variant: small-caps;
+}
+
+/* recent project link style in About section. */
+.project-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
 
 /* CSS for Section format */
 .section {

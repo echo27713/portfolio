@@ -1,4 +1,5 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -7,7 +8,11 @@ const HomePage = () => {
     displayName: "Eunjung Cho",
     profession: "UX Designer",
     location: "San Francisco Bay Area",
-    about: `Currently, I am looking for a new opportunity. For the past 12 years, I've worked at startups and big tech companies as an interaction designer and user researcher.\n\n— Skills: Interaction design, Information Architecture, Flows&wireframes, Low-fidelity prototyping & design iteration with RITE method, Figma, HTML/CSS/Javascript/React/Swift/SQL Field study, Usability test, In-depth interviews, Web log analysis.`,
+    about: `Currently, I am looking for a new opportunity. With 12 years of experience at startups and big tech companies as an interaction designer and user researcher, I specialize in interaction design, UX research, and prototyping for both enterprise and consumer products.
+
+Over the past year, I have expanded my skills in JavaScript and React, building web applications that blend user experience principles with technical implementation. I enjoy bringing ideas to life through both **design and code**.
+
+Recently, I have developed a series of self-initiated projects, including a [weather visualization dashboard](https://college-weather-dashboard-app.vercel.app/) and a [location-based photo weather app](https://echo-flickr-weather-app.vercel.app/). I also built this portfolio site using React.\n\n — Skills: Interaction design, Information Architecture, Flows&wireframes, Low-fidelity prototyping & design iteration with RITE method, Figma, HTML/CSS/Javascript/React/Swift/SQL Field study, Usability testing, In-depth interviews, Web log analysis.`,
   };
 
   const projects = [
@@ -189,14 +194,24 @@ const HomePage = () => {
           </div>
         </div>
         <h2>ABOUT</h2>
-        <p className="profile-about">
+        {/* <p className="profile-about">
           {profileData.about.split("\n\n").map((line, index) => (
             <React.Fragment key={index}>
               {line}
               <br></br>
             </React.Fragment>
           ))}
-        </p>
+        </p> */}
+        <ReactMarkdown
+          className="profile-about"
+          components={{
+            a: ({ node, ...props }) => (
+              <a className="project-link" {...props} />
+            ),
+          }}
+        >
+          {profileData.about}
+        </ReactMarkdown>
       </header>
 
       {/*Project Section */}
