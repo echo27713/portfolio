@@ -266,9 +266,10 @@ h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
-  color: #111;
+  color: #484848;
+  margin-top: 2em;
 }
 /* start: from Flexible Typesetting ch4 */
 body {
@@ -302,7 +303,7 @@ p {
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
-  color: #333;
+  color: #222;
 }
 
 /* Profile Section */
@@ -315,7 +316,7 @@ p {
 .profile-header {
   display: flex;
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 .profile-photo {
   width: 100px;
@@ -329,6 +330,7 @@ p {
   font-family: "capitolium-news-2", serif;
   font-size: 1.4rem;
   font-weight: bold;
+  color: #484848;
   margin: 0;
 }
 
@@ -368,9 +370,8 @@ p {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.3;
-  margin-top: 1em;
+  font-size: 0.925rem;
+  line-height: 1.35;
 }
 
 /* CSS for Section format */
@@ -394,13 +395,13 @@ p {
 .section-year {
   flex-shrink: 0;
   width: 96px;
-  font-size: 0.9rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #999;
   text-align: left;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-right: 20px;
   /* border: 1px dashed red; */
 }
@@ -409,7 +410,7 @@ p {
   font-family: "capitolium-2", serif;
   font-style: normal;
   font-weight: 300;
-  color: #333;
+  color: #484848;
   font-size: 1.4rem;
   line-height: 1.275;
   margin: 0;
@@ -419,7 +420,7 @@ p {
 
 .section-details p {
   font-family: "capitolium-2", serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.375;
   font-weight: 300;
   color: #666;
@@ -479,6 +480,8 @@ p {
 
   h2 {
     font-size: 1.2rem;
+    margin-top: 2.5em;
+    font-weight: 600;
   }
 
   .profile-about {
@@ -487,22 +490,22 @@ p {
     max-width: 640px;
     font-size: 1.2rem;
     font-weight: 400;
-    color: #666;
+    /* color: #484848; */
     margin: 0;
     width: 100%;
     /* border: 1px dashed #007bff; */
     line-height: 1.4;
   }
   .skills-heading {
-    font-size: 0.9rem;
-    line-height: 1.3;
+    font-size: 1rem;
+    line-height: 1.35;
     margin-top: 1.875em;
   }
   .section-details h3 {
     font-family: "capitolium-2", serif;
     font-style: normal;
     font-weight: 700;
-    color: #333;
+    color: #484848;
     font-size: 1.5rem;
     line-height: 1.2;
     margin: 0;
@@ -526,7 +529,7 @@ p {
   }
   .section-year {
     width: auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-right: 0;
     margin-bottom: 2px;
     color: #666;
