@@ -13,7 +13,7 @@ const HomePage = () => {
 Over the past year, I have expanded my skills in JavaScript and React, building web applications that blend user experience principles with technical implementation. I enjoy bringing ideas to life through both **design and code**.
 
 Recently, I have developed a series of self-initiated projects, including a [weather visualization dashboard](https://college-weather-dashboard-app.vercel.app/) and a [location-based photo weather app](https://echo-flickr-weather-app.vercel.app/). I also built this portfolio site using React.\n\n `,
-    skills: `Interaction design, Information Architecture, Flows&wireframes, Low-fidelity prototyping & design iteration with RITE method, Figma, HTML/CSS/Javascript/React/Swift/SQL Field study, Usability testing, In-depth interviews, Web log analysis.`,
+    skills: `Interaction design, Information Architecture, Flows&wireframes, Low-fidelity prototyping & design iteration with RITE method, Figma, HTML/CSS/Javascript/React, Swift, SQL, Field study, Usability testing, In-depth interviews, Web log analysis.`,
   };
 
   const projects = [
