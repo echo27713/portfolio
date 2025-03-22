@@ -417,7 +417,7 @@ p {
   line-height: 1.275;
   margin: 0;
   width: 100%;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 
 .section-details p {
@@ -428,7 +428,7 @@ p {
   color: #666;
   margin: 0;
   margin-top: 0.375em;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
   width: 100%;
 }
 
@@ -453,26 +453,23 @@ p {
 }
 
 /* school project thumbnails without a link */
-
 .school-thumbnails {
   display: grid;
-  /* This creates as many columns as will fit, with a minimum size of 80px per thumbnail and maximum of 1fr (equal share) */
-  grid-template-columns: repeat(auto-fill, 190px);
-  gap: 10px; /* Space between images */
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 10px;
   margin-top: 10px;
   width: 100%;
 }
 
 .school-thumbnail {
-  max-width: 190px;
+  width: 100%; /* make sure thumbnails take full cell width */
 }
 
 .school-thumbnail img {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Prevent image distortion */
-  border-radius: 4px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 @media (max-width: 430px) {
@@ -489,7 +486,7 @@ p {
   .profile-about {
     /* white-space: pre-wrap; */
     font-family: "capitolium-news-2", serif;
-    max-width: 640px;
+    /* max-width: 640px; */
     font-size: 1.2rem;
     font-weight: 400;
     /* color: #484848; */
