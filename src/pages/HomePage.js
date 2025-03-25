@@ -296,6 +296,31 @@ Recently, I have developed a series of self-initiated projects, including a [wea
           ))}
         </ul>
       </section>
+
+      {/* Contact Section */}
+      <section className="section">
+        <h2>CONTACT</h2>
+        <div>
+          <span className="project-link">
+            {" "}
+            <a
+              href="https://www.linkedin.com/in/eunjung-cho-designer/"
+              target="_blank"
+            >
+              LinkedIn Profile
+            </a>
+          </span>
+          <span className="section-year"></span>
+          <span className="project-link">
+            <a
+              href={`${process.env.PUBLIC_URL}/profile/EunjungCho_Resume.pdf`}
+              target="_blank"
+            >
+              Download Resume
+            </a>
+          </span>
+        </div>
+      </section>
     </div>
   );
 };
