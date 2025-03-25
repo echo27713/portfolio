@@ -358,7 +358,7 @@ p {
 
 /* recent project link style in About section. */
 .project-link {
-  color: #007bff;
+  color: #2563eb;
   text-decoration: none;
 }
 
@@ -437,7 +437,7 @@ p {
   max-width: 420px;
   border-radius: 4px; /* Rounded corners */
   overflow: hidden; /* Ensures border-radius applies to the image */
-  border: 1px dashed #007bff;
+  border: 1px dashed #2563eb;
 }
 
 .section-thumbnail img {
