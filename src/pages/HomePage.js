@@ -306,15 +306,17 @@ Recently, I have developed a series of self-initiated projects, including a [wea
             <a
               href="https://www.linkedin.com/in/eunjung-cho-designer/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn Profile
             </a>
           </span>
-          <span className="section-year"></span>
+          <span className="footer-bar-space">|</span>
           <span className="project-link">
             <a
               href={`${process.env.PUBLIC_URL}/profile/EunjungCho_Resume.pdf`}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Download Resume
             </a>
