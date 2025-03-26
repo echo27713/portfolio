@@ -207,7 +207,9 @@ Recently, I have developed a series of self-initiated projects, including a [wea
           className="profile-about"
           components={{
             a: ({ node, ...props }) => (
-              <a className="project-link" {...props} />
+              <a className="project-link" {...props}>
+                {props.children || "Visit project"}
+              </a>
             ),
           }}
         >
@@ -301,24 +303,24 @@ Recently, I have developed a series of self-initiated projects, including a [wea
       <section className="section">
         <h2>CONTACT</h2>
         <div>
-          <span className="project-link">
+          <span className="back-to-list">
             {" "}
             <a
               href="https://www.linkedin.com/in/eunjung-cho-designer/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn Profile
+              LinkedIn Profile &#8599;
             </a>
           </span>
           <span className="footer-bar-space">|</span>
-          <span className="project-link">
+          <span className="back-to-list">
             <a
               href={`${process.env.PUBLIC_URL}/profile/EunjungCho_Resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Download Resume
+              Download Resume &#8595;
             </a>
           </span>
         </div>
