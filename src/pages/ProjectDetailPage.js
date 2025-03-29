@@ -31,11 +31,7 @@ const MarkdownImage = ({ src, alt }) => {
     imgClass = "img-small";
     cleanSrc = fullSrc.replace("?size=small", "");
   }
-  // else if (fullSrc.includes("?size=large")) {
-  //   imgClass = "img-large";
-  //   cleanSrc = fullSrc.replace("?size=large", "");
-  // }
-  // return <img src={fullSrc} alt={alt} className="markdown-image" />;
+
   return (
     <figure className="image-figure">
       <img src={fullSrc} alt={alt} className={imgClass} />
@@ -70,7 +66,7 @@ const MarkdownCarousel = ({ node }) => {
     let fullSrc = src;
     // Default to a large image style.
     let imgClass = "img-large";
-    let cleanSrc = fullSrc;
+    // let cleanSrc = fullSrc;
 
     // If the source is relative, explicitly point to the projects folder.
     if (!/^https?:\/\//.test(src) && !src.startsWith("data:")) {

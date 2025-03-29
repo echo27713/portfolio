@@ -373,11 +373,12 @@ p {
   font-weight: 400;
   font-size: 0.925rem;
   line-height: 1.35;
+  margin-bottom: 6em;
 }
 
 /* CSS for Section format */
 .section {
-  margin-top: 2em;
+  margin-top: 3em;
   /* border: 1px dashed #007bff; */
 }
 
