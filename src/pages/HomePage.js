@@ -8,9 +8,9 @@ const HomePage = () => {
     displayName: "Eunjung Cho",
     profession: "UX Designer",
     location: "San Francisco Bay Area",
-    about: `Currently, I am looking for a new opportunity. With 12 years of experience at startups and big tech companies as an interaction designer and user researcher, I specialize in interaction design, UX research, and prototyping for both enterprise and consumer products.
+    about: `Currently, I am looking for a new opportunity. With years of experience at startups and big tech companies as a UX designer and user researcher, I specialize in interaction design, user research, and prototyping for both enterprise and consumer products.
 
-Over the past year, I have expanded my skills in JavaScript and React, building web applications that blend user experience principles with technical implementation. I enjoy bringing ideas to life through both **design and code**.
+Over the past year, I have expanded my skills in JavaScript and React, building web applications that blend user experience principles with technical implementation. I enjoy bringing ideas to life through both design and code.
 
 Recently, I have developed a series of self-initiated projects, including a [weather visualization dashboard](https://college-weather-dashboard-app.vercel.app/) and a [location-based photo weather app](https://echo-flickr-weather-app.vercel.app/). I also built this portfolio site using React.\n\n `,
     skills: `Interaction design, Information Architecture, Flows&wireframes, Low-fidelity prototyping & design iteration with RITE method, Figma, HTML/CSS/Javascript/React, Swift, SQL, Field study, Usability testing, In-depth interviews, Web log analysis.`,
